@@ -1,0 +1,99 @@
+.cardPara {
+    font-size: 21px;
+}
+
+.codeCoupoun {
+    letter-spacing: 2px;
+}
+
+.coupounOffer .card {
+    transition: 0.5s;
+}
+
+.coupounOffer .card:hover {
+    background-color: #FFF3D6;
+    transition: 0.5s;
+}
+
+.disclamair {
+    font-size: 19px
+}
+
+.accorDian .accordion-button {
+    background-color: #E9E9E9;
+}
+
+.accorDian .accordion-body{
+    background-color: #FFF3D6 !important;
+}
+
+.accorDian .accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.acrdianMEd .accordion-button::after {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAAAXNSR0IArs4c6QAAAQBJREFUSEvt1T1KBDEYBuBnxRuIeA5vIQiCrZUKC9op+NN4AH8bS1cFsdfaS3gMG/ECFiqfZCCsu05S7FQzbX6e5P2SzEAH36DSWMM9hnguHVuLnOEIVziYNXKJwx5pS6CpSR9XW1K/7Z3EdZ6O7kxr0ilykW5+Uca1z0qzkx75E+8SlvGC79Q6Ka6IfBWveJtUpP9q8oR1XGMvQeNIjI9nfz8tZqUW2cAj5jIokPiPROGPM+AL23ioRaL/Ju4y6DND5tMOAtjBaNp5LjnCW7hN0AcW8I5FtAIBlyDRL4eaBRcBNcg4FMAubkqufOlOmrmiRqc4SRGWGMVxFU02rdMPwBtFGv6DvG8AAAAASUVORK5CYII=) !important;
+    rotate: -90deg;
+}
+
+.acrdianMEd .accordion-button:not(.collapsed)::after {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAAAXNSR0IArs4c6QAAAQBJREFUSEvt1T1KBDEYBuBnxRuIeA5vIQiCrZUKC9op+NN4AH8bS1cFsdfaS3gMG/ECFiqfZCCsu05S7FQzbX6e5P2SzEAH36DSWMM9hnguHVuLnOEIVziYNXKJwx5pS6CpSR9XW1K/7Z3EdZ6O7kxr0ilykW5+Uca1z0qzkx75E+8SlvGC79Q6Ka6IfBWveJtUpP9q8oR1XGMvQeNIjI9nfz8tZqUW2cAj5jIokPiPROGPM+AL23ioRaL/Ju4y6DND5tMOAtjBaNp5LjnCW7hN0AcW8I5FtAIBlyDRL4eaBRcBNcg4FMAubkqufOlOmrmiRqc4SRGWGMVxFU02rdMPwBtFGv6DvG8AAAAASUVORK5CYII=) !important;
+    transform: rotate(90deg);
+}
+
+.navButnClr{
+    background-color: #FFF3D6 !important;
+}
+
+.accorDian .accordion-button:not(.collapsed) {
+    background-color: #FFF3D6 !important;
+}
+
+.fntAcrdan{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.coupounOffer{
+    margin-top: 1.5rem;
+}
+/* Media query start */
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cardPara {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cardPara {
+        font-size: 18px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cardPara {
+        font-size: 18px;
+    }
+    
+    .codeCoupoun{
+        font-size: 11px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .secondCopoun{
+        margin-top: 1.5rem;
+    }
+
+    .disclamair {
+        font-size: 16px;
+    }
+}

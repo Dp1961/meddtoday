@@ -1,0 +1,508 @@
+/* ====== Global Css Start ====== */
+/* Col-8 CSS Start */
+.uploadText {
+    font-size: 16px;
+z-index: 1;
+margin-top: 43px;
+}
+.presimageClick{
+    border: 1px solid #ffc400 !important; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+.uploadBg .card {
+    background-color: #FFE2E1;
+    cursor: pointer;
+}
+
+.crdPointer {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.crdPointerdd {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+
+.fileUpload {
+    display: none;
+}
+
+
+
+/* Col-8 CSS End */
+
+/* Col-4 CSS Start */
+.dntHvePrescption .card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.dntHave {
+    font-size: 23px;
+}
+
+.cardPrescptn {
+    position: relative;
+    height: 8rem;
+}
+
+.freeConsult {
+    line-height: 18px;
+}
+
+.presimageHeight {
+    width: 120px !important;
+    border: 1px solid #ee3124;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.prescriptionDiv {
+    width: 120px !important;
+    height: 110px !important;
+    border: 1px solid #ee3124;
+    border-radius: 4px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.imgUploadDiv img {
+    width: 64px;
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    object-fit: cover;
+}
+
+.upLoadedImage img {
+    width: 64px;
+    display: block;
+    margin: 0 auto;
+    height: 64px;
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+.onlinePay {
+    margin-top: 16px;
+}
+
+.productContainer{
+    background-color: white;
+}
+
+.prescriptionProductsWrapper{
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+
+.prescriptionItemContentWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 23px;
+}
+
+
+.billSummary {
+    background: #FFF3D6 !important;
+}
+
+.itemsNameAndCountWrapper{
+    border-radius: 5px;
+    margin-bottom: 14px;
+    border:1px solid black;
+    background-color: #fff8e7;
+}
+
+/* 
+select {
+    word-wrap: normal;
+}
+
+select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+} */
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+
+.productRow{
+    overflow: hidden;
+    border: 1px solid gray
+}
+
+/* Dropdown css start */
+.dropDownOD .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 0 !important;
+}
+
+
+.dropDownOD .select select::-ms-expand {
+    display: none;
+}
+
+.dropDownOD .select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #eeeeee;
+}
+
+.dropDownOD .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+.dropDownOD .select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+    border-top-color: #000000;
+}
+
+.dropDownOD .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+}
+
+/* Drop down css end */
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #db1b1b;
+    transition: width .6s ease;
+}
+
+
+.dntHave{
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 6px;
+}
+
+/* Drop down css end */
+
+
+.rxImg img{
+    width: auto;
+    height: 30px;
+    align-self: center;
+}
+
+.uploadPresImg .modal-content {
+    background-color: #FFF8E6;
+}
+
+
+.uploadPresImg .modal-header{
+    border-bottom: none;
+}
+
+.crsrpntr{
+    cursor: pointer;
+}
+/* ====== Global Css End ====== */
+
+/* Media query start */
+@media (min-width:1400px) {
+
+    /* === Health care impact css start */
+    .healthcareImpact {
+        background-color: #F6AB01;
+        position: relative;
+        margin-top: 7rem !important;
+    }
+
+    .hlthImpctFnt {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+
+    .mobPrescription {
+        position: absolute;
+        bottom: -7rem;
+        width: 249px;
+        margin-left: 8rem;
+    }
+
+    .playStorApple {
+        position: absolute;
+        top: 21rem;
+    }
+
+    /* === Health care impact css end */
+
+    /* === Delivery css start == */
+    .blogConTent {
+        margin-top: 20rem;
+    }
+
+    /* == Devlivery css end == */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* === Health care impact css start */
+    .healthcareImpact {
+        background-color: #F6AB01;
+    }
+
+    /* === Health care impact css end */
+
+    .healthcareImpact {
+        background-color: #F6AB01;
+        position: relative;
+        margin-top: 7rem !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* === Health care impact css start */
+    .healthcareImpact {
+        background-color: #F6AB01;
+    }
+
+    .inputCustom {
+        padding: 5px;
+    }
+
+    .prevRvwPrescription {
+        visibility: hidden;
+    }
+
+    .prevNxtPrescription {
+        visibility: hidden;
+    }
+
+    .healthcareImpact {
+        background-color: #F6AB01;
+        position: relative;
+        margin-top: 7rem !important;
+    }
+
+    .presimageHeight {
+        width: 100px !important;
+        border: 1px solid #ee3124;
+        border-radius: 4px;
+      }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .presimageHeight {
+        width: 100px !important;
+        border: 1px solid #ee3124;
+        border-radius: 4px;
+      }
+
+    /* === Health care impact css start */
+    .healthcareImpact {
+        background-color: #F6AB01;
+    }
+
+    .dataPrescription {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .prevRvwPrescription {
+        visibility: hidden;
+    }
+
+    .prevNxtPrescription {
+        visibility: hidden;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .onlinePay {
+        margin-top: 11px;
+    }
+
+    /* === Health care impact css start */
+    .healthcareImpact {
+        background-color: #F6AB01;
+    }
+
+    .dataPrescription {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .prevRvwPrescription {
+        visibility: hidden;
+    }
+
+    .prevNxtPrescription {
+        visibility: hidden;
+    }
+
+    .sizeMeasured {
+        width: 27.688rem !important;
+        margin: 0 auto;
+    }
+
+    .trackingProgress .placed2 {
+        position: absolute;
+        top: 3rem;
+        font-size: 11px;
+    }
+
+    .trackingProgress .proceesing {
+        position: absolute;
+        left: 6.5rem;
+        top: 3rem;
+    }
+
+    .trackingProgress .delivery {
+        position: absolute;
+        left: 13rem;
+        bottom: -2rem;
+    }
+
+    .trackingProgress .delivered {
+        position: absolute;
+        left: 20.5rem;
+        top: 3rem;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+    /* === Health care impact css start */
+    .healthcareImpact {
+        background-color: #F6AB01;
+    }
+
+    /* === Health care impact css end */
+
+    .prevRvwPrescription {
+        visibility: hidden;
+    }
+
+    .prevNxtPrescription {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:426px) and (max-width:575px) {
+    .uploadPrecriptionCustom {
+        width: 33%;
+    }
+
+    .uploadText {
+        font-size: 15px;
+        z-index: 1;
+    }
+}
+
+@media (min-width:0px) and (max-width:320px) {
+    .prescription {
+        font-size: 12px;
+    }
+
+    .ppnSpc {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:321px) and (max-width:374px) {
+    .ppnSpc {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:375px) and (max-width:425px) {
+    .prescription {
+        font-size: 16px;
+    }
+
+    .ppnSpc {
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+/* Latest Review */
+.prevRvwPrescription {
+    width: 40px;
+    position: absolute !important;
+    top: 47px;
+    left: -40px;
+}
+
+.prevNxtPrescription {
+    top: 47px;
+    width: 40px;
+    position: absolute;
+    right: -40px;
+}
+
+
+@-moz-document url-prefix() {
+    .medName {
+        font-size: 11px;
+    }
+}

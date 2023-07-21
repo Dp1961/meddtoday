@@ -1,0 +1,16 @@
+.ErrORBox {
+    padding: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .ErroIMG img {
+    width: 100px;
+  }
+  .ErrORCONt h2 {
+    color: #f60101;
+  }
+  .ErrORCONt p span {
+    font-weight: 600;
+    color: #f60101;
+  }

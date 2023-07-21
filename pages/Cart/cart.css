@@ -1,0 +1,493 @@
+/* Global CSS Start */
+.cartText {
+    font-size: 20px;
+}
+
+.locationFnt{
+    color: red;
+    font-size: 25px;
+}
+
+.applyBtnPstn .form-control {
+    padding: 9px 59px 9px 9px;
+}
+
+.cartAddress ::placeholder {
+    color: #6c757d  !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #6c757d ;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #6c757d ;
+  }
+
+.applyBtnPstn .form-control:focus {
+    color: #212529;
+    background-color: none;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.applyBtnPstn ::placeholder {
+    color: black !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.applyBtnPstn :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black !important;
+}
+
+.applyBtnPstn ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black !important;
+}
+
+
+.strike {
+    font-size: 12px;
+}
+
+.prescriptionNeededContainer{
+    padding-top: 16px;
+    /* border: 1px solid black; */
+}
+
+
+/* Dropdown css start */
+.cart .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.cart .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.cart .select select::-ms-expand {
+    display: none;
+}
+
+.cart .select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #ffffff;
+}
+
+.cart .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.cart .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.cart .select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+    border-top-color: #000000;
+}
+
+.cart .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+}
+
+.percent {
+    width: 7%;
+}
+
+.downArrow {
+    width: 8%;
+}
+
+.cardBG {
+    background: #FFE7E5 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.applyBtnPstn {
+    position: relative;
+}
+
+.applyBtn {
+    position: absolute;
+    bottom: 13%;
+    right: 1%;
+}
+
+.applyFnt {
+    font-size: 11px;
+}
+
+.offercartCard .card {
+    background: #FFFFFF;
+    border: 1px solid #757575;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.brdCLR {
+    border-bottom: 2px solid rgb(250, 203, 96);
+}
+
+.billSummary {
+    background-color: #FFF3D6;
+}
+
+/* Drop down css end */
+
+.colCustomCart {
+    width: 18%;
+}
+
+.locatioPara {
+    margin-bottom: 0;
+}
+
+/* Carosouel css */
+.similarMedicineCart .health {
+    background-color: #f1f1f1;
+}
+
+.similarMedicineCart .pstnHelthLike {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #eaeaea;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.similarMedicineCart .card-body {
+    flex: 1 1 auto;
+    padding: 2rem 1rem;
+}
+
+.similarMedicineCart .colCstmCart {
+    width: 18%;
+}
+
+.similarMedicineCart {
+    background-color: #f1f1f1;
+}
+
+.similarMedicineCart p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prevHealthCart {
+    position: absolute;
+    top: 15rem;
+    width: 40px !important;
+}
+
+.productHeightCart {
+    height: 66%;
+}
+
+.likeHghtCart {
+    height: 50px;
+}
+
+
+.crdBtnCart {
+    position: absolute;
+    bottom: -17px;
+    left: 19%;
+}
+
+
+
+
+/* Carosouel css */
+
+.similarMedicineMed .health {
+    background-color: #f1f1f1;
+}
+
+.similarMedicineMed .pstnHelthLike {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #eaeaea;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.similarMedicineMed .card-body {
+    flex: 1 1 auto;
+    padding: 2rem 1rem;
+}
+
+.similarMedicineMed .col5 {
+    width: 18%;
+}
+
+.similarMedicineMed {
+    background-color: #f1f1f1;
+}
+
+.similarMedicineMed p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prevHealthCart {
+    position: absolute;
+    top: 15rem;
+    width: 40px !important;
+}
+
+.productHeighhCart {
+    height: 54%;
+}
+.text-muted.fortax {
+    color: #000 !important;
+  }
+  .deivoff {
+    font-size: 15px;
+    color: #000 !important;
+  }
+
+.likeHghtMed {
+    height: 50px;
+}
+
+.fw6.PARa {
+    padding-left: 73px;
+  }
+
+  .btn.bTnPAra.bgYellow.w-100.fw6.text-start.cartText {
+    cursor: auto;
+  }
+/* Media query start */
+@media (min-width:1440px) {
+    .prevHealthCart {
+        position: absolute;
+        top: 15rem;
+        width: 40px;
+        left: 10px;
+    }
+
+    .nextHealthCart {
+        position: absolute;
+        right: 0;
+        top: 15rem;
+        right: 10px;
+    }
+}
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .editSize {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .locaTion {
+        width: 17px;
+    }
+
+    .locatioPara {
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+
+    .colCustomCart {
+        width: 18%;
+    }
+
+    /* carosouel */
+    .nextHealthCart {
+        position: absolute;
+        right: 0;
+        top: 15rem;
+        right: 10px;
+    }
+
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .editSize {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .locaTion {
+        width: 17px;
+        margin: 0 14px;
+    }
+
+    /* /* Carosouel */
+    .similarMedicineMed .col5 {
+        width: 25%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .editSize {
+        font-size: 11px;
+        margin-top: 3px;
+        white-space: nowrap;
+    }
+
+    .locaTion {
+        width: 17px;
+        margin: 0 14px;
+    }
+
+    .locatioPara {
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+
+    /* Carosouel */
+    .similarMedicineMed .col5 {
+        width: 33%;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .editSize {
+        font-size: 11px;
+        margin-top: 3px;
+        white-space: nowrap;
+    }
+
+    .locaTion {
+        width: 17px;
+        margin: 0 14px;
+    }
+
+    .locatioPara {
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+
+    /* Carosouel */
+    .similarMedicineMed .col5 {
+        width: 50%;
+    }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .crdBtnCart {
+        position: absolute;
+        bottom: 10px;
+        left: 24%;
+    }
+    .IMgclaSS{
+        text-align: center;
+      }
+    .btn.bTnPAra.bgYellow.w-100.fw6.text-start.cartText {
+        text-align: center !important;
+      }
+
+    .delQuantityWrap {
+        display: flex;
+    }
+
+    .delAlign {
+        align-self: center;
+    }
+
+
+    .cart .select_arrow {
+        position: absolute;
+        top: 16px;
+        right: 153px;
+    }
+
+    .cart .select select {
+        width: 50%;
+    }
+
+    .delAlign {
+        margin-bottom: 1rem;
+    }
+
+    .cart .select_arrow {
+        position: absolute;
+        top: 16px;
+        right: 54%;
+    }
+
+    .locatioPara {
+        font-size: 13px;
+        margin: 0 8px;
+    }
+
+    .locaTion {
+        width: 17px;
+    }
+
+    .editSize {
+        font-size: 11px;
+        margin-top: 8px;
+        margin-left: 1.5rem;
+    }
+
+    .offerPara {
+        margin-top: 9px;
+    }
+
+    /* Caorousel */
+    .similarMedicineMed .card-body {
+        flex: 1 1 auto;
+        padding: 2rem 1rem;
+        height: 160px;
+    }
+}
+
+@media (min-width:425px) and (max-width:575px) {
+    .locatioPara {
+        font-size: 15px;
+        margin: 0 8px;
+    }
+
+    /* Carosouel */
+    .colCstmMedicineMed {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+}
+.mx-2.delQuantityWrap {
+    margin-left: 0px !important;
+  }

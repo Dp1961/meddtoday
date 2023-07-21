@@ -1,0 +1,471 @@
+/* =========== Global CSS Start ========*/
+/* Filter CSS Start */
+
+.searchBrand {
+    position: relative;
+}
+
+.searchBrand1 {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.6rem;
+}
+
+.filter .form-control {
+    padding: 7px 27px 7px 5px;
+}
+
+.filter ::placeholder {
+    color: rgb(0, 0, 0) !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(0, 0, 0);
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(0, 0, 0);
+}
+
+.filter .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.heightProduct img {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.categoryListContainer,
+.specialityListContainer{
+    /* min-height: 100%;*/
+    max-height: 180px; 
+    overflow-y: scroll; 
+}
+
+ /* scroll bar css */
+
+.categoryListContainer::-webkit-scrollbar {
+    width: 10px; /* Width of the entire scrollbar */
+  }
+  
+.categoryListContainer::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+  }
+
+.categoryListContainer::-webkit-scrollbar-thumb {
+    background-color: #8a8a8a; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #f1f1f1; /* Border around the handle */
+  }
+
+.categoryListContainer::-webkit-scrollbar-thumb:hover {
+    background: #5e5f61; /* Color on hover */
+  }
+
+  .specialityListContainer::-webkit-scrollbar {
+    width: 10px; /* Width of the entire scrollbar */
+  }
+  
+  .specialityListContainer::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+  }
+
+  .specialityListContainer::-webkit-scrollbar-thumb {
+    background-color: #8a8a8a; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #f1f1f1; /* Border around the handle */
+  }
+
+  .specialityListContainer::-webkit-scrollbar-thumb:hover {
+    background: #5e5f61; /* Color on hover */
+  }
+
+  /* firefox css scroll bar */
+  /* Set the width of the scrollbar */
+  .categoryListContainer::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Set the color of the scrollbar thumb */
+  .categoryListContainer::-webkit-scrollbar-thumb {
+    background-color: gray;
+  }
+  
+  /* Set the color of the scrollbar track */
+  .categoryListContainer::-webkit-scrollbar-track {
+    background-color: white;
+  }
+  
+
+  /* Set the scrollbar color for Firefox */
+  .categoryListContainer{
+  scrollbar-color: rgb(180, 173, 173) white;
+  scrollbar-width: thin;
+  margin-right: 5px;
+  }
+  
+
+  
+
+.clearFilterButton{
+    border: 1px solid black;
+    margin: 0;
+    outline: 0;
+    min-width: 64px;
+    font-weight: 500;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.675rem;
+    letter-spacing: 0.01117em;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.clearFilterButton:active{
+    background-color: gainsboro; 
+}
+
+.txt-cntr{
+    text-align: center;
+}
+
+.hideScrollBar{
+    scrollbar-width: none;
+}
+.showScrollbar{
+    scrollbar-width: thin;
+}
+
+
+/* Filter CSS End */
+
+/* Col Eight CSS Start */
+/* * Dropdown css start */
+.filter .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.filter .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.filter .select select::-ms-expand {
+    display: none;
+}
+
+.filter .select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #ffffff;
+}
+
+.filter .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.filter .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.filter .select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+    border-top-color: #000000;
+}
+
+.filter .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+}
+
+/* Drop down css end */
+
+/* Products css start */
+.products .card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.minimalAmount {
+    font-size: 12px;
+}
+
+.filter .crdBtn {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 23%;
+}
+
+/* Products css end */
+
+/* Latest Review Css start */
+.review .carousel-control-next {
+    right: 0;
+    visibility: hidden;
+}
+
+.frequent .col5Product {
+    width: 20% !important;
+}
+
+.frequent .carousel-control-prev {
+    left: 0;
+    visibility: hidden;
+}
+
+.frequent .carousel-control-next {
+    right: 0;
+    visibility: hidden;
+}
+
+.crdBdypplrity {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    height: 100%;
+}
+
+.productHeightWhilist {
+    height: 64%;
+}
+
+
+.crdBtnpoppularity {
+    position: absolute;
+    bottom: -19px;
+    left: 20%;
+}
+
+/* Latest Review css end */
+/* Global CSS End */
+
+
+.crdBdypplrityFrqent {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    height: 100%;
+}
+
+/* Media query start */
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1440px) {
+    .addToCart .crdBtnPopular {
+        position: absolute;
+        left: 3rem;
+    }
+
+    .homeMed a {
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .crdBdypplrity {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        height: 100%;
+    }
+
+    .crdBtnpoppularity {
+        position: absolute;
+        bottom: -19px;
+        left: 15%;
+    }
+
+
+    .homeMed a {
+        margin: 0 5px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .addToCart .crdBtnPopular {
+        position: absolute;
+        left: 1rem;
+    }
+
+
+    .homeMed a {
+        margin: 0 5px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .crdBdypplrity {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        height: 100%;
+    }
+
+    .colTopSpcPpl {
+        margin-top: 2rem;
+    }
+
+    .filter .accordion-button {
+        border: none;
+        background-color: transparent !important;
+
+    }
+
+    .filter .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .filter .accordion-button::after {
+        background-image: url(../../assets/images/hamburger.svg) !important;
+    }
+
+    .addToCart .crdBtnPopular {
+        position: absolute;
+        bottom: -4%;
+        left: 26%;
+        font-size: 10px;
+    }
+
+
+    .homeMed a {
+        margin: 0 5px;
+    }
+}
+/* cart button effect\ */
+.btn.bg-warning.fw-bold.crdBtnpoppularity:hover, .btn.bg-warning.fw-bold.crdBtnpoppularity:focus{
+    box-shadow: inset 0 0 0 2em #f60101;
+    border: #f60101;
+    color: #fff;
+  }
+  .btn.bg-warning.fw-bold.crdBtnpoppularity{
+    transition: 0.5s;
+  }
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .filter .accordion-button {
+        border: none;
+        background-color: transparent !important;
+    }
+
+    .filter .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .filter .accordion-button::after {
+        background-image: url(../../assets/images/hamburger.svg) !important;
+    }
+
+
+    .homeMed a {
+        margin: 0 5px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .crdBdypplrity {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        height: 100%;
+    }
+
+    .filter .accordion-button {
+        border: none;
+        background-color: transparent !important;
+    }
+
+    .filter .accordion-button:focus {
+        box-shadow: none;
+    }
+
+    .filter .accordion-button::after {
+        background-image: url(../../assets/images/hamburger.svg) !important;
+    }
+
+    .colTopSpcPpl {
+        margin-top: 2rem;
+    }
+
+    .addToCart .crdBtnPopular {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (min-width:426px) and (max-width:575px) {
+    .popularityCol {
+        width: 70%;
+    }
+
+    .crdBtnpoppularity {
+        position: absolute;
+        bottom: -19px;
+        left: 28%;
+    }
+
+    .productHeightArrivals {
+        height: 434px;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px) {
+    .crdBtnpoppularity {
+        position: absolute;
+        bottom: -19px;
+        left: 25%;
+    }
+}
+
+@media (min-width:376px) and (max-width:425px) {
+    .crdBtnpoppularity {
+        position: absolute;
+        bottom: -19px;
+        left: 29%;
+    }
+}
+/* new css */
+.wrapPPl a p {
+    font-size: 18px !important;
+  }
+  .wrapPPl img {
+    width: 12px !important;
+  }
+  .filterSeach {
+    height: 46px ;
+  }
+  .align-self-sm-center.px-sm-1 {
+    font-size: 20px;
+  }
+  .PopPAgeNoPRDuct {
+    text-align: center;
+    padding: 20px;
+  }

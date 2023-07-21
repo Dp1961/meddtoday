@@ -1,0 +1,13 @@
+.newBank {
+    border: 2px solid #EE3124;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.wdthBTN{
+    width: 13rem;
+}
+
+.presimageHeight{
+    width: 50%;
+}

@@ -1,0 +1,807 @@
+.btnCustom {
+  color: #000;
+  background-color: #ffffff;
+  height: 100%;
+  border: transparent;
+  border-radius: 0rem;
+  outline: none;
+  box-shadow: none;
+}
+
+.inPut .form-control {
+  border: none;
+  border-radius: 0;
+}
+
+.hifanSpc1 {
+  padding: 0 0 0 44px !important;
+}
+
+.hifanSpc2 {
+  padding: 0 44px 0 0 !important;
+}
+
+.inPut .form-control:focus {
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.inPut .btn {
+  border-radius: none;
+}
+
+.onlinePayImages {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chevronRight {
+  width: 5%;
+}
+
+.hifan {
+  font-size: 19px;
+}
+
+.searchOnlineMed {
+  position: absolute;
+  right: 17px;
+  width: 13px;
+  cursor: pointer;
+  font-size: 22px;
+  color: red !important;
+  bottom: 11px;
+}
+
+.productOffer {
+  margin-top: 1rem;
+}
+
+.homeAddress {
+  padding: 11px 0 3px 0px;
+}
+
+.downArw2 {
+  color: black;
+  width: 23px;
+  right: -9px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+
+.curserPointer{
+  cursor: pointer;
+}
+
+
+/*============== Input Field CSS ============ */
+.onlinemedicine .dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.onlinemedicine .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.onlinemedicine .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.onlinemedicine .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.onlinemedicine .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.onlinemedicine .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.onlinemedicine .form-control {
+  border: none;
+  border-radius: 5px;
+}
+
+
+.onlinemedicine .form-control:focus {
+  box-shadow: none;
+}
+
+.downArrow {
+  object-fit: contain;
+}
+
+.search1 {
+  position: relative;
+}
+
+.search2 {
+  position: absolute;
+  right: 2%;
+  bottom: 33%;
+  width: 2.5%;
+  cursor: pointer;
+}
+
+.downArrow {
+  width: 31%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.onlinemedicine .inputFile {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid red;
+}
+
+.onlinemedicine .inputFile:hover {
+  border: 1px solid red;
+}
+
+.onlinemedicine .custom-file-upload {
+  display: inline-block;
+  padding: 6px 11px 0px 13px;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0px 5px 5px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  border: 0px solid #000000;
+  background-color: #fff;
+  color: #f00;
+  font-size: 18px;
+  /* padding-top: 1rem; */
+}
+
+.onlinemedicine input[type="file"] {
+  display: none;
+}
+
+.ordrBtn {
+  border-radius: 5px !important;
+}
+
+#yourBtn {
+  position: relative;
+  top: 150px;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+}
+
+
+
+.yellowBg {
+  background: #F6AB01 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 1;
+}
+
+/* Offers css start */
+.offers .card {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #757575;
+  border-radius: 6px;
+  opacity: 1
+}
+
+/* Latest Review Css start */
+.review {
+  background-color: lightcoral;
+}
+
+/* Latest review css start */
+.nexT {
+  position: absolute;
+  right: 0rem !important;
+  bottom: 3rem;
+}
+
+.nexT {
+  position: absolute;
+  right: 0rem !important;
+}
+
+.prevHealth {
+  visibility: hidden;
+}
+
+.health .col5 {
+  width: 20%;
+}
+
+.saltCompFnt {
+  font-size: 11px;
+}
+
+.bracia {
+  font-size: 14px;
+}
+
+.review .carousel-control-prev-icon {
+  background-image: url(../../assets/images/leftbgWhite.png);
+}
+
+.review .carousel-control-next-icon {
+  background-image: url(../../assets/images/rightbgwhite.png);
+}
+
+.review .carousel-control-prev-icon {
+  width: 6rem;
+  height: 50%;
+}
+
+.review .carousel-control-prev-icon {
+  width: 3.4rem;
+}
+
+.review .carousel-control-prev {
+  left: -9rem;
+}
+
+.review {
+  background-color: #FFF8E6;
+}
+
+.preV {
+  position: absolute;
+  bottom: 2rem;
+  left: -4rem;
+}
+
+.nexT {
+  position: absolute;
+  bottom: 2rem;
+  right: -4rem !important;
+}
+
+/* Latest review css end */
+
+/* ====== Delivery Css Start ======= */
+.rwColorDelivery {
+  border-top: 2px solid #fcdad8;
+  border-bottom: 2px solid #fcdad8;
+}
+
+/* ====== Delivery Css end ======= */
+
+
+/* New css start */
+.offers p {
+  letter-spacing: 0.36px;
+  color: #1D1D1D;
+  opacity: 1;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* New css end */
+
+
+/* Latest Review Online Med */
+
+/* Latest Review */
+.prevRvwPrevOnlineMed {
+  width: 40px;
+  position: absolute !important;
+  top: 47px;
+  left: -40px;
+}
+
+.prevNxtRvwOnlineMed {
+  top: 47px;
+  width: 40px;
+  position: absolute;
+  right: -40px;
+}
+
+.rowSpace {
+  margin-top: 3rem;
+}
+
+.productOffer {
+  gap: 30px;
+}
+
+.uploadFilee {
+  white-space: nowrap;
+}
+
+.fileImg {
+  object-fit: contain !important;
+  align-self: center;
+}
+
+.citiesNames {
+  width: 27%;
+  margin-top: 6px;
+}
+
+@-moz-document url-prefix() {
+  .fileImg {
+    object-fit: contain !important;
+    align-self: center;
+    visibility: visible;
+  }
+}
+
+.describe {
+  padding: 18.5px 0;
+}
+
+
+.srchFrm ::placeholder {
+  color: rgb(114, 113, 113) !important;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+.srchFrm :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(114, 113, 113) !important;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+.srchFrm ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(114, 113, 113) !important;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+/* =================== Media Query Start ================== */
+/* Media query start */
+@media (min-width:1440px) {
+  .preV {
+    visibility: hidden;
+  }
+
+  .prevNextImg {
+    visibility: hidden;
+  }
+
+
+  .medicinePra {
+    font-size: 18px !important;
+  }
+
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .medicinePra {
+    font-size: 14px !important;
+  }
+
+  /* Banner css start */
+  .describe {
+    font-size: 14px !important;
+  }
+
+  /* Banner css end */
+
+  .citiesNames {
+    width: 31%;
+    margin-top: 6px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .medicinePra {
+    font-size: 15px !important;
+  }
+
+  .medName {
+    font-size: 15px !important;
+  }
+
+  .downArw2 {
+    color: black;
+    width: 22px;
+    right: -9px;
+    padding-top: 4px;
+    padding-left: 0px;
+    font-size: 11px;
+  }
+
+  /* Latest review css start */
+  .preV {
+    visibility: hidden;
+  }
+
+  .nexT {
+    visibility: hidden;
+    position: absolute;
+    right: 0rem !important;
+  }
+
+  /* Banner css start */
+  .describe {
+    font-size: 14px;
+  }
+
+  .onlinemedicine .form-floating>.form-control {
+    padding: 1rem 1.75rem 16px 14px;
+  }
+
+  /* Banner css end */
+
+
+  /* Offer css start */
+  .offerRowTop {
+    margin-top: 10px;
+  }
+
+  /* Latest Review */
+  .prevRvwPrevOnlineMed {
+    visibility: hidden;
+  }
+
+  .prevNxtRvwOnlineMed {
+    visibility: hidden;
+  }
+
+  /* For Chrome start */
+  .onlinemedicine .custom-file-upload {
+    font-size: 17px;
+  }
+
+  .citiesNames {
+    width: 31%;
+    margin-top: 6px;
+  }
+
+  /* For Chrome end */
+
+  /* FireFox CSS start */
+  @-moz-document url-prefix() {
+    .medName {
+      font-size: 15px;
+    }
+
+    .onlinemedicine .custom-file-upload {
+      font-size: 17px;
+    }
+  }
+
+  /* FireFox CSS end */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .medicinePra {
+    font-size: 15px !important;
+  }
+
+  .downArw2 {
+    color: black;
+    width: 18px;
+    right: -9px;
+    padding-top: 3px;
+    padding-left: 0px;
+    font-size: 12px;
+  }
+
+
+  /* Banner css start */
+  .onlinemedicine .form-floating>.form-control {
+    padding: 1rem 1.75rem 16px 14px;
+  }
+
+  .rowSpace {
+    margin-top: 2rem;
+  }
+
+}
+
+
+
+/* Banner css end */
+
+/* Latest review css start */
+.nexT {
+  position: absolute;
+  right: 0rem !important;
+  bottom: 3rem;
+}
+
+.preV {
+  visibility: hidden;
+}
+
+.nexT {
+  visibility: hidden;
+  position: absolute;
+  right: 0rem !important;
+}
+
+.prevHealth {
+  visibility: hidden;
+}
+
+.health .col5 {
+  width: 20%;
+}
+
+.saltCompFnt {
+  font-size: 11px;
+  /* height: 55px; */
+  cursor: pointer;
+  text-align: center;
+}
+
+.bracia {
+  font-size: 14px;
+}
+
+.onlinemedicine .custom-file-upload {
+  font-size: 16px;
+  padding-top: 0rem;
+}
+
+.describe {
+  font-size: 14px;
+}
+
+.medName {
+  font-size: 14px;
+}
+
+.onlinemedicine .form-floating>.form-control {
+  padding: 1rem 2.75rem 1rem 1rem;
+}
+
+.search2 {
+  width: 6.5%;
+}
+
+/* Latest Review */
+.prevRvwPrevOnlineMed {
+  visibility: hidden;
+}
+
+.prevNxtRvwOnlineMed {
+  visibility: hidden;
+}
+
+
+.describe {
+  padding: 17px 0;
+}
+
+.citiesNames {
+  width: 31%;
+  margin-top: 6px;
+}
+
+/* For Firefox */
+@-moz-document url-prefix() {
+  .medName {
+    font-size: 14px;
+  }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .downArw2 {
+    color: black;
+    width: 23px;
+    right: -9px;
+    padding-top: 4px;
+    padding-left: 0px;
+    font-size: 11px;
+  }
+  .productOffer {
+    gap: 0;
+  }
+
+  /* Latest Review */
+  .prevRvwPrevOnlineMed {
+    visibility: hidden;
+  }
+
+  .prevNxtRvwOnlineMed {
+    visibility: hidden;
+  }
+
+  .rowSpace {
+    padding: 0px 34px 0;
+  }
+
+
+  .describe {
+    padding: 15px 0;
+  }
+
+  .homeAddress {
+    padding: 11px 0 3px 0px;
+  }
+
+
+  .citiesNames {
+    width: 31%;
+    margin-top: 6px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .hifanSpc1 {
+    padding: 0px !important;
+  }
+
+  .hifanSpc2 {
+    padding: 0px !important;
+  }
+
+  .medicinePra {
+    font-size: 13px !important;
+  }
+
+
+  .downArw2 {
+    color: black;
+    width: 23px;
+    right: -9px;
+    padding-top: 6px;
+    padding-left: 0px;
+    font-size: 10px;
+  }
+
+  /* Banner css start */
+  .yellowBg {
+    padding: 1rem;
+  }
+
+  .describe {
+    font-size: 14px;
+  }
+
+  .onlinemedicine .custom-file-upload {
+    padding-top: 0rem;
+  }
+
+  .search2 {
+    position: absolute;
+    right: 2%;
+    bottom: 33%;
+    width: 5.5%;
+  }
+
+  /* Banner css end */
+
+  .custom-file-upload {
+    width: 80%;
+  }
+
+  .productOffer {
+    gap: 15px;
+  }
+
+  .describe {
+    padding: 15px 0;
+  }
+
+  .citiesNames {
+    width: 31%;
+    margin-top: 6px;
+  }
+}
+
+@media (min-width:420px) and (max-width:575px) {
+
+  .custom-file-upload {
+    width: 50%;
+  }
+
+  .citiesNames {
+    width: 31%;
+    margin-top: 6px;
+  }
+
+}
+
+@media (min-width:375px) and (max-width:424px) {
+  .bnrOff {
+    font-size: 13px;
+  }
+
+  .hifan {
+    font-size: 11px;
+  }
+
+  .custom-file-upload {
+    width: 70%;
+  }
+
+  .citiesNames {
+    width: 31%;
+    margin-top: 6px;
+  }
+
+
+}
+
+@media (min-width:321px) and (max-width:374px) {
+  .bnrOff {
+    font-size: 12px;
+  }
+
+  .hifan {
+    font-size: 12px;
+  }
+
+  .custom-file-upload {
+    width: 50%;
+  }
+
+
+  .custom-file-upload {
+    width: 100%;
+  }
+}
+
+@media (min-width:0px) and (max-width:320px) {
+  .bnrOff {
+    font-size: 11px;
+  }
+
+  .hifan {
+    font-size: 12px;
+  }
+
+  .medName {
+    font-size: 13px;
+  }
+
+  .rowSpace {
+    margin-top: 2rem;
+  }
+
+  .onlinemedicine .custom-file-upload {
+    font-size: 12px;
+  }
+
+  .custom-file-upload {
+    padding: 8px 8px !important;
+  }
+
+  .orderMed {
+    font-size: 21px;
+  }
+
+  .custom-file-upload {
+    width: 75%;
+  }
+}

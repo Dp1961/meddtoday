@@ -1,0 +1,62 @@
+.brdrRed {
+  border: 1px solid #ee3124;
+}
+
+.contentCstm h4 {
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.contentCstm p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  color: #7e7e7e;
+  font-weight: 500;
+}
+
+.contentCstm .card {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.radiusDay {
+  border-radius: 5px;
+}
+
+.wrapDayContent {
+  display: flex !important;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.fw6.results.mb-0 h4 {
+  font-size: 20px;
+  padding-top: 4px;
+}
+.daysFont {
+  font-size: 15px !important;
+}
+
+.timeDateClr{
+    color: #ee3124;
+}
+
+.contentCstm{
+    padding: 60px 0 80px 0;
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+.fw6.results.mb-0 h4 {
+  font-size: 15px;
+}
+}
+@media (min-width: 0px) and (max-width: 767px){
+  .fw6.results.mb-0 h4 {
+    font-size: 13px;
+  }
+  }
+  @media (min-width: 0px) and (max-width: 575px){
+    .fw6.results.mb-0 h4 {
+      font-size: 17px;
+    }
+    }

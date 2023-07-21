@@ -1,0 +1,116 @@
+.succesFull p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.orderReach {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tick {
+  position: absolute;
+  right: 9px;
+  font-size: 30px;
+  top: 8px;
+  z-index: 1;
+}
+
+.yelllowBg {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  background-color: #f6ab01;
+}
+
+.orderComplete img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.lightYellow {
+  background-color: #fff3d6;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+.reachedOrder {
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.bgGrayYellow {
+  background-color: #fff3d6;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-top: 2rem;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.total {
+  font-size: 18px;
+}
+
+.bgWhite {
+  background-color: #fffffffa;
+  padding: 15px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  margin-bottom: 0px;
+  border-radius: 0;
+}
+
+.bgWhiteRdus{
+    background-color: #fffffffa;
+    padding: 15px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+      rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin-bottom: 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.orderDetails{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.detailArw p{
+    color: #EE3124;
+    font-weight: 600;
+}
+.detailArw p:hover{
+    color:#F6AB01;
+    font-weight: 600;
+}
+
+.orderID{
+    white-space: nowrap;
+}
+
+@media (min-width:400px){
+    .orderFlex{
+        display: flex;
+    }
+}

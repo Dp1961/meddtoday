@@ -1,0 +1,40 @@
+/* GLobal CSS Start */
+.colEight .card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.qualifPara {
+    letter-spacing: 0.22px;
+}
+
+.colFour .card {
+    background: #FFE7E5 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+p {
+    letter-spacing: 0.22px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.lichensed{
+    font-size: 19px;
+}
+
+.qualiFication p{
+ margin-top: 0;
+}
+.card.py-4.px-3 img {
+    height: 100px;
+    width: 95px;
+    border-radius: 50%;
+  }

@@ -1,0 +1,480 @@
+.logo {
+    width: 80%;
+}
+
+.mobileIcn {
+    font-size: 20px;
+}
+
+.mainNav ul li {
+    cursor: pointer;
+}
+
+.mainNav ul li:hover {
+    color: yellow !important;
+}
+
+.mobWidth {
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 6px 5px;
+}
+
+.signApp {
+    font-size: 16px;
+}
+
+.dropDwn .btn {
+    padding: 0;
+    border: none;
+    background-color: #f60101;
+    font-size: 16px;
+font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.brdrRht {
+    border-right: 1px solid white;
+    padding: 0 17px 0 0;
+}
+
+.buyGet {
+    position: relative;
+}
+
+
+.notivOne {
+    position: absolute;
+    right: -15%;
+    bottom: 77%;
+    font-size: 10px !important;
+}
+
+
+.bgRedCircle {
+    background-color: #f60101;
+}
+
+.mainNav .dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+}
+
+.mainNav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.mainNav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.mainNav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mainNav .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.mainNav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.acuntWidth {
+    width: 35px;
+}
+
+.parent {
+    background: #ee3124;
+    box-shadow: 0px 10px 10px #00000029 !important;
+}
+
+.hamburGer {
+    width: 33px;
+}
+
+.mainNav .dropdown-menu-end[data-bs-popper] {
+    right: 0;
+    left: auto;
+    margin-top: 13px;
+}
+.fw.mt-3.align-self-md-center.poinTer a {
+    text-decoration: none;
+    color: black;
+  }
+  .fw.mt-3.align-self-md-center.poinTer {
+    color: black;
+    font-size: 17px;
+  }
+
+/* Media query start */
+
+@media (min-width:1400px) {
+    .parent {
+        display: gird;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 9px;
+        background-color: #f60101;
+        padding: 1rem 0;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .parent {
+        display: gird;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 9px;
+        background-color: #f60101;
+        padding: 1rem 0;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .brdrRht {
+        border-right: 1px solid white;
+        padding: 0 17px 0 0;
+    }
+
+    .notivOne {
+        position: absolute;
+        right: -8%;
+        bottom: 75%;
+        font-size: 10px !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .parent {
+        font-size: 15px !important;
+        grid-gap: 10px;
+        display: gird;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        background-color: #f60101;
+        padding: 1rem 0;
+        color: white;
+    }
+
+    .notivOne {
+        position: absolute;
+        right: -8%;
+        bottom: 75%;
+        font-size: 10px !important;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .notivOne {
+        position: absolute;
+        right: -8%;
+        bottom: 75%;
+        font-size: 10px !important;
+    }
+
+    .hamburGer {
+        position: absolute;
+        right: 23px;
+        top: 23px;
+    }
+
+    .mobNav ul li {
+        padding: 9px 20px;
+    }
+
+    .wrapIcons {
+        margin: 0 15px;
+    }
+
+    .dwnLoadApp {
+        width: 10px;
+        padding-bottom: 8px;
+    }
+
+    .offcanvas-header .btn-close {
+        padding: 0.5rem 0.5rem;
+        margin-top: -0.5rem;
+        margin-right: -0.5rem;
+        margin-bottom: -0.5rem;
+        position: absolute !important;
+        right: 17px !important;
+        top: 29px !important;
+    }
+
+    .profileTab {
+        transform: translate3d(-86px, 45px, 0px) !important;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .notivOne {
+        position: absolute;
+        right: -8%;
+        bottom: 75%;
+        font-size: 10px !important;
+    }
+
+    .hamburGer {
+        position: absolute;
+        right: 23px;
+        top: 43px;
+    }
+
+    .mobNav ul li {
+        padding: 9px 20px;
+    }
+
+    .wrapIcons {
+        margin: 0 15px;
+    }
+
+    .dwnLoadApp {
+        width: 10px;
+        padding-bottom: 8px;
+    }
+
+    .profileTab {
+        transform: translate3d(-86px, 45px, 0px) !important;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .notivOne {
+        position: absolute;
+        right: -8%;
+        bottom: 75%;
+        font-size: 10px !important;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .navbar-toggler {
+        padding: 0.1rem 0.1rem;
+    }
+
+    .logoSize {
+        width: 85%;
+    }
+
+    .mobNav ul li {
+        padding: 9px 20px;
+    }
+
+    .hamburGer {
+        position: absolute;
+        right: 10px;
+        top: 11px;
+    }
+
+    .mobNav ul li {
+        padding: 9px 20px;
+    }
+
+    .wrapIcons {
+        margin: 0 15px;
+    }
+
+    .dwnLoadApp {
+        width: 10px;
+        padding-bottom: 8px;
+    }
+
+    .offcanvas {
+        max-width: 90%;
+    }
+
+    /* Modal Start */
+    .modalCtm {
+        padding: 5px;
+    }
+
+    .forOtp input {
+        margin: 10px;
+        height: 35px;
+        width: 50px !important;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        font-family: arimo;
+        font-size: 2.2rem;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 2px solid #c8c8c8;
+        border-radius: 6px;
+        opacity: 1;
+        padding: 1rem 0px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .forOtp .css-mhc70k-MuiGrid-root>.MuiGrid-item {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .profileTab {
+        transform: translate3d(-86px, 45px, 0px) !important;
+    }
+
+}
+
+@media (min-width:1680px) {
+    .parent {
+        display: gird;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        background-color: #f60101;
+        padding: 1rem 0;
+        color: white;
+    }
+
+}
+
+
+@media (max-width:425px) {
+    .forOtp input {
+        margin: 10px;
+        height: 35px;
+        width: 25px !important;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        font-family: arimo;
+        font-size: 2.2rem;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 2px solid #c8c8c8;
+        border-radius: 6px;
+        opacity: 1;
+        padding: 1rem 0px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media (min-width:376px) and (max-width:425px){
+    .hamburGer {
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+}
+
+
+/* Modal Number Start */
+.modalCtm ::placeholder {
+    color: rgb(0, 0, 0) !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.modalCtm :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(0, 0, 0) !important;
+}
+
+.modalCtm ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(0, 0, 0) !important;
+}
+
+.modalCtm .modal-header {
+    display: block;
+}
+
+.modalCtm .modal-header .btn-close {
+    display: none;
+}
+
+.modalCtm {
+    padding: 25px;
+}
+
+/* Modal Number End */
+
+/* Dropdown Start */
+.dropDwn {
+    background-color: #f60101;
+    color: white;
+}
+
+.dropDwn .btn {
+    padding: 0;
+    border: none;
+    background-color: #f60101;
+}
+
+.dropDwn .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f60101;
+    border-color: #f60101;
+}
+
+.dropDwn .btn-primary:focus {
+    color: #fff;
+    background-color: #f60101;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.dropDwn .dropdown-menu {
+    margin-top: 14px;
+}
+
+.dropDwn .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f60101 !important;
+}
+
+
+.otp>div:nth-of-type(1) {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+.dwnLoadText {
+    margin-top: -2px;
+}
+
+.signApp {
+    font-size: 16px;
+}
+
+
+.dwnLoadTop {
+    margin-top: 6px;
+}
+.regiSTEr.modal-header {
+    justify-content: center;
+    text-align: center;
+  }

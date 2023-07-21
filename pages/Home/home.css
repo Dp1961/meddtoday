@@ -1,0 +1,3027 @@
+/*-------- Banner css start ----------- */
+.banner {
+  background-image: url(../../assets/images/bannerbg.png);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.banner .dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+}
+
+.banner ::placeholder {
+  color: #5f5f5f !important;
+  opacity: 1;
+  /* Firefox */
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.banner :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000 !important;
+}
+
+.banner ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000000 !important;
+}
+
+.citiesNames {
+  font-weight: 600;
+}
+
+.downArw {
+  color: black;
+  width: 19px;
+  right: -9px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.banner .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.banner .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.banner .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.banner .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.banner .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.banner .form-control {
+  border: none;
+  border-radius: 0px;
+}
+
+.banner .form-floating>.form-control:focus,
+.form-floating>.form-control:not(:placeholder-shown) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 47px;
+}
+
+.banner .form-control:focus {
+  box-shadow: none;
+}
+
+.downArrow {
+  object-fit: contain;
+}
+
+.search1 {
+  position: relative;
+}
+
+.search2 {
+  position: absolute;
+  right: 2%;
+  bottom: 33%;
+  width: 2.5%;
+}
+
+.downArrow {
+  width: 31%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.banner .inputFile {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid red;
+}
+
+.banner .inputFile:hover {
+  border: 1px solid red;
+}
+
+.banner .custom-file-upload {
+  display: inline-block;
+  padding: 6px 11px 0px 13px;
+  cursor: pointer;
+  border: 1px solid #ff0202;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #f00;
+  font-size: 24px;
+}
+
+.banner input[type="file"] {
+  display: none;
+}
+
+.ordrBtn {
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.curserPointer{
+  cursor: pointer;
+}
+
+/*-------- Banner css end --------- */
+
+/*------- Product css start --------*/
+.productImg {
+  position: relative;
+}
+
+.prdctcnTnt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.shopeNow {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.medicineHead {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-9.align-self-center.medConTent {
+  padding-left: 25px;
+}
+
+.medicinePara {
+  font-weight: 500;
+  color: #757575;
+  font-size: 12px;
+}
+
+.bgArrow {
+  background-color: white;
+  border-radius: 10%;
+}
+
+.rightarrow {
+  width: 77%;
+}
+
+/*------------- Product css end ---------------*/
+
+/*------------- Popular Categories css start ----------*/
+.popularCategoriesHome .carousel-control-next-icon {
+  color: white;
+}
+
+.popularCategoriesHome .carousel-control-prev-icon {
+  color: white;
+}
+
+.popularCategoriesHome .carousel-control-next {
+  right: -6%;
+  width: 6%;
+  height: 17%;
+  top: 40%;
+}
+
+.popularCategoriesHome .carousel-control-prev {
+  left: -3.5%;
+  width: 6%;
+  height: 82%;
+  top: 11%;
+}
+
+.popularCategoriesHome .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30%;
+  height: 3vh;
+}
+
+.popularCategoriesHome .carousel-control-prev-icon {
+  background-image: url(../../assets/images/arrow-left-solid.svg);
+  width: 29%;
+}
+
+.popularCategoriesHome .carousel-control-next-icon {
+  background-image: url(../../assets/images/arrow-right-solid.svg);
+}
+
+
+.categoriesBg {
+  border: 3px solid #f7ab01;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: transparent;
+  transition: 0.5s;
+  margin: auto;
+  cursor: pointer;
+}
+
+.fw6.Sp {
+  cursor: pointer;
+}
+
+.categoriesBg:hover {
+  background-color: rgba(216, 213, 213, 0.678);
+  transition: 0.8s;
+}
+
+.popularCol {
+  width: 16%;
+}
+
+.categriesImg:hover {
+  transform: scale(1);
+}
+
+.categoriesName {
+  font-weight: 700;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+/*----------------- Popular Categories css end -------------*/
+
+/*----------------- New Arrivals css start ---------------- */
+.newArrivals {
+  background-color: #f1f1f1;
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.crdBtnPopular {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 20% !important;
+}
+
+.newArrivals .crd {
+  position: relative;
+}
+
+.crdBtn {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 23%;
+}
+
+.arrivalMedName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.newArrivals .carousel-control-prev-icon {
+  background-image: url(../../assets/images/leftbgWhite.png);
+  height: 10% !important;
+}
+
+.newArrivals .carousel-control-next-icon {
+  background-image: url(../../assets/images/rightbgwhite.png);
+  height: 10%;
+}
+
+.newArrivals .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 12%;
+  height: 123%;
+}
+
+.newArrivals .carousel-control-prev {
+  left: -5rem;
+}
+
+.newArrivals .carousel-control-next {
+  right: -6%;
+}
+
+.newArrivals .col5 {
+  width: 19%;
+}
+
+/*------------- New Arrivals css end ------------*/
+
+/* ------------ Upload css start ---------------*/
+.uploadText {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* ------------ Upload css end ---------------*/
+
+/*---------- Deals of the day css start -------- */
+.blogCrsl img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blogCrsl .card-body {
+  height: 219px !important;
+  cursor: pointer;
+  overflow: hidden;
+}
+.doubleTICk{
+  right: 42px;
+  position: absolute;
+}
+.TXtcenTER{
+  text-align: center;
+}
+.divImgHght {
+  height: 100%;
+  background-color: white;
+}
+
+.dealsSpace {
+  padding: 1rem 0;
+}
+
+.rdus {
+  border-radius: 1%;
+}
+
+.dealsf19 {
+  font-size: 27px;
+  cursor: pointer;
+}
+
+
+.bgHeart {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.heartLike {
+  position: absolute;
+  right: 5px;
+  top: 2.5px;
+}
+
+
+.vitamin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-flex.justify-content-center.mt-3 .textRed {
+  cursor: pointer;
+}
+
+/*---------- Deals of the day css end -------- */
+
+/* --------- medication Product css start------ */
+.medicationProduct {
+  background-image: url(../../assets/images/yelloBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prdctCol {
+  width: 35%;
+}
+
+.counterText {
+  font-weight: bold;
+}
+
+/*------- medication Product css end ---------- */
+
+
+/* New Arrivals Css start */
+.newArrivalsNew .health {
+  background-color: #f1f1f1;
+}
+
+.newArrivalsNew .pstnHelthLike {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #eaeaea;
+  padding: 3%;
+  cursor: pointer;
+}
+
+.newArrivalsNew .card-body {
+  flex: 1 1 auto;
+  padding: 2rem 1rem;
+  height: 100% !important;
+  text-align: center;
+}
+
+.newArrivalsNew .col5 {
+  width: 18%;
+}
+
+.arrivalImages {
+  width: 90% !important;
+}
+
+.likeHghtArrivals {
+  height: 50px;
+}
+
+
+.heartRoundArrivals {
+  border: 1px solid #b3b1b1b4;
+  width: 34px;
+  border-radius: 35px;
+  height: 34px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+
+}
+
+.healthmedIConsArrivals {
+  position: absolute;
+  right: 4px;
+  color: #EE3124;
+  font-size: 24px;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.productHeightArrivals {
+  /* height: 170px; */
+  height: 54%;
+}
+
+
+
+.newArrivalsNew {
+  background-color: #f1f1f1;
+}
+
+.newArrivalsNew p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mainlRate {
+  font-size: 21px;
+}
+
+/* New Arrivals Css end */
+
+
+
+/* ----- Health css start --------- */
+.health {
+  background-color: #f1f1f1;
+}
+
+.pstnHelthLike {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #eaeaea;
+  padding: 3%;
+  cursor: pointer;
+}
+
+.health .card-body {
+  flex: 1 1 auto;
+  padding: 2rem 1rem;
+  /* height: 250px !important; */
+}
+.card-body.compohome {
+  height: 250px !important;
+}
+.health .col5 {
+  width: 18%;
+}
+
+.arrivalImages {
+  width: 90% !important;
+}
+
+/* Heart css for common Start */
+.likeHght {
+  height: 50px;
+}
+
+.heartRound {
+  border: 1px solid #b3b1b1b4;
+  width: 34px;
+  border-radius: 35px;
+  height: 34px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.healthmedICons {
+  position: absolute;
+  right: 4px;
+  color: #EE3124;
+  font-size: 24px;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.productHeight {
+  /* height: 170px; */
+  height: 42%;
+}
+
+.crdBtnHealth {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 17%;
+}
+
+/* Heart css for end */
+
+/*------ Health css end -----------*/
+
+/* -------- Blog Css Start ---------- */
+.blog .card {
+  border: 1px solid #F6AB01;
+}
+
+.blog .carousel-control-prev-icon {
+  background-image: url(../../assets/images/leftArrow.png);
+}
+
+.blog .carousel-control-next-icon {
+  background-image: url(../../assets/images/rightArroww.png);
+}
+
+/* Blog css start */
+.blog .carousel-control-prev-icon {
+  width: 2.4rem;
+  height: 3rem;
+}
+
+/*------------- Blog css start --------------- */
+.blog .carousel-control-prev {
+  left: -4rem;
+}
+
+.blog .carousel-control-next {
+  right: -4rem;
+}
+
+.blogName {
+  font-weight: 700;
+}
+
+.review .carousel-control-prev-icon {
+  background-image: url(../../assets/images/leftbgWhite.png);
+}
+
+.review .carousel-control-next-icon {
+  background-image: url(../../assets/images/rightbgwhite.png);
+}
+
+.review .carousel-control-prev-icon {
+  width: 6rem;
+  height: 50%;
+}
+
+.review .carousel-control-prev-icon {
+  width: 3.4rem;
+}
+
+.review .carousel-control-prev {
+  left: -9rem;
+}
+
+.review {
+  background-color: #fff8e6;
+}
+
+/*------------- Blog css end --------------- */
+
+/*------------ Latest css start -------------*/
+.nexT {
+  position: absolute;
+  right: -4.5rem;
+  bottom: 3rem;
+}
+
+.preV {
+  position: absolute;
+  left: -3rem;
+  bottom: 3rem;
+}
+
+.prevNextImg {
+  width: 60%;
+  cursor: pointer;
+  visibility: visible;
+}
+
+/* Latest css end */
+
+/*============== Flexible css start ===========*/
+.flexible .card {
+  box-shadow: 0px 0px 19px #0000002e;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.flexible .card:hover {
+  color: white;
+}
+
+.flexible .card:hover {
+  background-color: #f66b01;
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: white;
+}
+
+.month {
+  border-bottom: 2px solid #fad277;
+  padding-bottom: 2rem;
+}
+
+.flexible .card:hover p {
+  color: rgb(255, 255, 255);
+}
+
+/*============== Flexible css end ===========*/
+
+/* ==== Top Selling Products start ===== */
+.sellingCardone {
+  background: #d1eeff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.sellingCardTwo {
+  background: #f3ffd1 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.sellingCardThree {
+  background: #ffded9 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.sellingCardFour {
+  background: #f8e2ff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.sellingHeadContent {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.productDiv {
+  width: 37px;
+  height: 37px;
+  color: red;
+  border-radius: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 7px #00000024;
+  border-radius: 6000px;
+  opacity: 1;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  cursor: pointer;
+}
+
+.imagesPstn {
+  position: relative;
+}
+
+.blogImages {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0;
+}
+
+.prdctimage2 {
+  width: 45%;
+}
+
+.prdctimage3 {
+  width: 30%;
+}
+
+.prdctimage4 {
+  width: 56%;
+}
+
+.cardHeight {
+  height: 13rem;
+}
+
+.rightArw {
+  width: 10%;
+}
+
+.rightArw {
+  color: red;
+  width: 10%;
+}
+
+.rightArw {
+  position: absolute;
+  left: 7.5px;
+  bottom: 5px;
+}
+
+/* ====== Delivery Css Start ======= */
+.rwColorDelivery {
+  border-top: 2px solid #fcdad8;
+  border-bottom: 2px solid #fcdad8;
+}
+
+/* ====== Delivery Css end ======= */
+
+/* Para */
+.txtAlign {
+  text-align: justify;
+}
+
+/* =========---------Modal CSS Start-----------========== */
+.modaL {
+  backdrop-filter: blur(4px);
+}
+
+.modaL .modal-content {
+  padding: 3rem 2rem;
+}
+
+.modaL .card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 25px #60606024;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.modaL ::placeholder {
+  color: #5f5f5f !important;
+  opacity: 1;
+  /* Firefox */
+  font-weight: 600;
+  border-left: 2px solid rgb(141, 140, 140);
+  padding-left: 1rem;
+}
+
+.modaL :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000 !important;
+}
+
+.modaL ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000000 !important;
+}
+
+.bgModalYellow {
+  background: #fff3d6 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+/* OTP css start */
+.otp {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.userInput {
+  display: flex;
+  justify-content: center;
+}
+
+.forOtp input {
+  margin: 10px;
+  height: 35px;
+  width: 65px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: arimo;
+  font-size: 2.2rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #c8c8c8;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 2rem 1rem;
+}
+
+.remainingSeconds {
+  font-size: 12px;
+}
+
+/* OTP css end */
+
+/* Medication CSS Hover */
+/* .imgsforPrduct {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.imgsforPrduct:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+} */
+
+/* Health css new start */
+.prevHealthHome {
+  position: absolute;
+  top: 15rem;
+  width: 40px !important;
+}
+
+.healthLeft {
+  width: 40px !important;
+}
+
+.healthRight {
+  width: 40px !important;
+}
+
+/* Health css new end */
+
+/* From Blog css start */
+.leftRightImgBlog {
+  width: 40px;
+  cursor: pointer;
+}
+
+/* From blog css end */
+
+/* Featured css start */
+.prevFeaturedImgright {
+  position: absolute !important;
+  right: 16px;
+  width: 40px !important;
+  bottom: -5px;
+}
+
+.prevFeaturedImgleft {
+  position: absolute !important;
+  left: 0px;
+  bottom: 0px;
+  width: 40px !important;
+}
+
+/* Latest Review */
+.prevRvwPrevHme {
+  width: 40px;
+  position: absolute !important;
+  top: 47px;
+  left: -40px;
+}
+
+.prevNxtRvwHome {
+  top: 47px;
+  width: 40px;
+  position: absolute;
+  right: -40px;
+}
+
+
+.medicineWidth {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+
+
+/*============----------- Modal Css end ============-------- */
+
+/*------------- Media query start -------------*/
+@media (min-width: 1400px) {
+
+  .oragnsTop {
+    margin-top: 24px !important;
+  }
+
+  /* Popular categories css */
+  .popularCategoriesHome .carousel-control-next {
+    right: 0;
+  }
+
+  .thridPara {
+    padding-right: 20px;
+  }
+
+  /* Popular categories css end */
+
+  /* New Arrivals css start */
+  .newArrivals .carousel-control-next {
+    right: -6%;
+  }
+
+  /* New Arrivals css end */
+
+  /* Featured Brand css start */
+  .nextFeature {
+    position: absolute;
+    left: -2rem;
+    bottom: 1.5rem;
+  }
+
+  .prevFeature {
+    position: absolute;
+    right: -3rem;
+    bottom: 1.7rem;
+  }
+
+  .prevFeaturedImg {
+    width: 60%;
+    cursor: pointer;
+  }
+
+  /* Featured Brand css end */
+
+  .countDwn {
+    margin-top: 5.5rem;
+  }
+
+  .blog .carousel-control-prev-icon {
+    width: 2.4rem;
+    height: 3rem;
+  }
+
+  .divImgHght {
+    height: 308px;
+    background-color: white;
+  }
+
+  .vitamin {
+    padding-top: 1.5rem;
+  }
+
+  /* Deals of the day css end */
+
+  /* Health Supplements css start */
+  .saltComp {
+    font-size: 12px;
+  }
+
+  .pstnHelth {
+    position: relative;
+  }
+
+  .prevHealthHome {
+    position: absolute;
+    top: 15rem;
+    width: 40px;
+    left: 10px;
+  }
+
+  .nextHealthHome {
+    position: absolute;
+    right: 0;
+    top: 15rem;
+    right: 10px;
+  }
+
+  /* Health supplements css end */
+
+  /* Blog css start */
+  .nextBlog {
+    position: absolute;
+    right: 0;
+    top: 10rem;
+  }
+
+  .prevBlog {
+    position: absolute;
+    top: 10rem;
+  }
+
+  .leftRightImg {
+    cursor: pointer;
+  }
+
+  .blogCol {
+    width: 31%;
+  }
+
+  .blog .card {
+    border: 1px solid #F6AB01;
+  }
+
+  /* Blog css end */
+
+  /* === Health care impact css start */
+  .healthcareImpactHome {
+    background-color: #f6ab01;
+    position: relative;
+    margin-top: 13rem !important;
+  }
+
+  .hlthImpctFnt {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .mobHght {
+    position: absolute;
+  }
+
+  .mobHght {
+    position: absolute;
+    bottom: -37%;
+    height: 166%;
+    left: 19%;
+  }
+
+  .playStorApple {
+    position: absolute;
+    top: 21rem;
+  }
+
+  /* === Health care impact css end */
+
+  /* === Delivery css start == */
+  .delivery {
+    margin-top: 10rem !important;
+  }
+
+  /* == Devlivery css end == */
+
+  /* Top selling css */
+  .topSellingRow {
+    margin-top: 2rem;
+  }
+
+  /* Popular css new start */
+
+  /* Popular css new end */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  .medText {
+    margin: 0 5rem 0 0;
+  }
+
+  /* Featured Brand css start */
+  .nextFeature {
+    position: absolute;
+    left: -2rem;
+    bottom: 1.5rem;
+  }
+
+  .prevFeature {
+    position: absolute;
+    right: -3rem;
+    bottom: 1.7rem;
+  }
+
+  .prevFeaturedImg {
+    width: 60%;
+    cursor: pointer;
+  }
+
+  /* Featured Brand css end */
+
+  /* Popular Categories */
+  .categoriesBg {
+    border: 3px solid #f7ab01;
+    padding-top: 22px;
+    border-radius: 50%;
+    background: transparent;
+    transition: 0.5s;
+  }
+
+  .popularCategoriesHome .carousel-control-next {
+    right: -3%;
+    width: 6%;
+    height: 9%;
+    top: 45%;
+  }
+
+  .oragnsTop {
+    margin-top: 0px;
+  }
+
+  /* Popular css new end */
+
+  /* === Health care impact css start */
+  .healthcareImpact {
+    background-color: #f6ab01;
+    position: relative;
+    margin-top: 9rem !important;
+  }
+
+  .hlthImpctFnt {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .mob {
+    position: absolute;
+  }
+
+  .mob {
+    position: absolute;
+    bottom: -19rem;
+  }
+
+  .playStorApple {
+    position: absolute;
+    top: 21rem;
+  }
+
+  .nextHealth {
+    position: absolute;
+    right: 0;
+    top: 15rem;
+  }
+
+  /* === Health care impact css end */
+
+  /* === Delivery css start == */
+  .delivery {
+    margin-top: 12rem;
+  }
+
+  /* == Devlivery css end == */
+
+  .mobHght {
+    position: absolute;
+    bottom: -37%;
+    height: 166%;
+    left: 19%;
+  }
+
+  /* Deals of the day css start */
+  .divImgHght {
+    height: 271px;
+    background-color: white;
+  }
+
+  .vitamin {
+    padding-top: 1.7rem;
+  }
+
+  /* Top selling css */
+  .topSellingRow {
+    margin-top: 2rem;
+  }
+
+  /* Health new css start */
+  .nextHealthHome {
+    position: absolute;
+    right: 0;
+    top: 15rem;
+    right: 10px;
+  }
+
+  /* Health new css end */
+
+  /* Blog */
+  .blogCol {
+    width: 31%;
+  }
+
+  .blogHomePrev {
+    position: absolute;
+    left: 0;
+    top: 158px;
+  }
+
+  .blogHomeNext {
+    position: absolute;
+    right: 0;
+    top: 158px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .newArrivalRct .slick-prev:before {
+    right: -15px !important;
+  }
+
+  .newArrivalRct .slick-next:before {
+    right: 7px !important;
+  }
+
+  .heathSuppleRct .slick-prev:before {
+    right: -15px !important;
+  }
+
+  .heathSuppleRct .slick-next:before {
+    right: -5px !important;
+  }
+
+  .blogCrsl .slick-prev:before {
+    right: -15px !important;
+  }
+
+  .blogCrsl .slick-next:before {
+    right: -5px !important;
+  }
+
+
+
+  .medText {
+    margin: 0 4rem 0 0;
+  }
+
+  .search2 {
+    right: 2%;
+    bottom: 34%;
+    width: 3.5%;
+  }
+
+  /* Popular Categories css start */
+  .popularCategoriesHome .carousel-control-prev {
+    left: -7.5%;
+    width: 15%;
+    height: 10%;
+    top: 48%;
+  }
+
+  .popularCategoriesHome .carousel-control-next {
+    right: -4%;
+    width: 8%;
+    height: 9%;
+    top: 45%;
+    visibility: hidden;
+  }
+
+  .categoriesBg {
+    border: 3px solid #f7ab01;
+    padding-top: 22px;
+    border-radius: 50%;
+    background: transparent;
+    transition: 0.5s;
+  }
+
+  .popularCol {
+    width: 20%;
+  }
+
+  .oragnsTop {
+    margin-top: 0px;
+  }
+
+  /* Popular Categories css end */
+
+  /* New Arraivals Css Start  */
+  .newArrivals .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 14%;
+    height: 123%;
+    visibility: hidden;
+  }
+
+  .newArrivals .carousel-control-next {
+    right: -3rem;
+  }
+
+  .crdBtn {
+    font-size: 15px;
+  }
+
+  .crdBtn {
+    left: 1rem;
+  }
+
+  .crdBtnPopular {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 6% !important;
+  }
+
+  .newArrivals .carousel-control-prev {
+    left: -3.8rem;
+  }
+
+  .newArrivals .carousel-control-next {
+    right: -3.7rem;
+  }
+
+  /* New Arraivals Css end  */
+
+  /* Upload css start */
+  .uploadText {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  /* Upload css end */
+
+  /* Featured css start */
+  .prevFeature {
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+    visibility: hidden;
+  }
+
+  .nextFeature {
+    position: absolute;
+    left: -2rem;
+    bottom: 1rem;
+    visibility: hidden;
+  }
+
+  /*----------- Deals of the day start -----------*/
+  .strikeRate {
+    font-size: 14px;
+  }
+
+  .divImgHght {
+    height: 289px;
+  }
+
+  .countNum {
+    font-size: 13px;
+  }
+
+  .countDwn {
+    padding-top: 2rem;
+  }
+
+  .dealsf19 {
+    font-size: 24px;
+    word-break: break-all;
+  }
+
+  /* .vitamin {
+    padding-top: 3.5rem;
+  } */
+
+  .countDate {
+    font-size: 17px;
+  }
+
+  /*----------- Deals of the day end -------------*/
+
+  /*----------- Product css start ---------------*/
+  .medicationProduct {
+    height: 21rem;
+  }
+
+  /*----- Health css start ----- */
+  .bracia {
+    font-size: 18px;
+  }
+
+  .saltCompFnt {
+    font-size: 14px;
+  }
+
+  .prevHealth {
+    visibility: hidden;
+  }
+
+  .nextHealth {
+    visibility: hidden;
+  }
+
+  .health .col5 {
+    width: 20%;
+  }
+
+  .leftRightImg {
+    visibility: hidden;
+  }
+
+  /*----- Health css end  ----- */
+
+  /* Blog css new start */
+  .prevBlog {
+    visibility: hidden
+  }
+
+  /* Latest review css start */
+  .preV {
+    visibility: hidden;
+  }
+
+  .nexT {
+    visibility: hidden;
+    position: absolute;
+    right: 0rem !important;
+  }
+
+  /* Latest review css end */
+
+  /* Healthcare css start */
+  .healthcareImpact {
+    background-color: #f6ab01;
+  }
+
+  .health .col5 {
+    width: 25%;
+  }
+
+  /* Healthcare css end */
+
+  /* === Health care impact css start */
+  .healthcareImpact {
+    background-color: #f6ab01;
+    position: relative;
+    margin-top: 13rem !important;
+  }
+
+  .hlthImpctFnt {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .mob {
+    position: absolute;
+  }
+
+  .mob {
+    position: absolute;
+    bottom: -19rem;
+  }
+
+  .playStorApple {
+    position: absolute;
+    top: 21rem;
+  }
+
+  /* === Health care impact css end */
+
+  /* === Delivery css start == */
+  .delivery {
+    margin-top: 8rem;
+  }
+
+  .medicineHead {
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  /* == Devlivery css end == */
+
+  .mobHght {
+    position: absolute;
+    bottom: -37%;
+    height: 166%;
+    left: 10%;
+  }
+
+  .cardHeight {
+    height: 12rem;
+  }
+
+  /* Top selling css */
+  .topSellingRow {
+    margin-top: 2rem;
+  }
+
+  /* Latest Review css new start */
+  .prevNextImg {
+    visibility: hidden;
+  }
+
+  /* Latest Review css new end */
+
+  /* New Arrivals new css start */
+  .newArrivalsNew .col5 {
+    width: 25%;
+  }
+
+  /* New Arrivals new css end */
+
+  /* Latest Review */
+  .prevRvwPrevHme {
+    visibility: hidden;
+  }
+
+  .prevNxtRvwHome {
+    visibility: hidden;
+  }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .newArrivalRct .slick-prev:before {
+    right: -20px !important;
+  }
+
+  .newArrivalRct .slick-next:before {
+    right: 10px !important;
+  }
+
+  .heathSuppleRct .slick-prev:before {
+    right: -20px !important;
+  }
+
+  .heathSuppleRct .slick-next:before {
+    right: -10px !important;
+  }
+
+  .blogCrsl .slick-prev:before {
+    right: -20px !important;
+  }
+
+  .blogCrsl .slick-next:before {
+    right: -10px !important;
+  }
+
+  .dealsf19 {
+    white-space: nowrap;
+    font-size: 21px;
+  }
+
+  .medText {
+    margin: 0 56px 0 0;
+  }
+
+  .medText {
+    margin: 0 4rem 0 0;
+  }
+
+
+  .medicineWidth {
+    width: 206px;
+    height: 206px;
+    margin: 0 auto;
+  }
+
+  .search2 {
+    width: 4.5%;
+  }
+
+  .downArw {
+    color: black;
+    width: 23px;
+    right: -9px;
+    padding-top: 7px;
+    padding-left: 4px;
+    font-size: 12px;
+  }
+
+  .banner {
+    background-image: url(../../assets/images/bannerbg.png);
+    background-position: center;
+    background-size: cover;
+    height: 24rem;
+  }
+
+
+
+  /* BANNER CSS */
+  .banner .custom-file-upload {
+    color: #f00;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 8px;
+  }
+
+  /* Product css start */
+  .imgsforPrduct {
+    height: 150%;
+    object-fit: fill;
+  }
+
+  .shopeNow {
+    position: absolute;
+    top: 9.5rem;
+  }
+
+  .banner .form-floating>.form-control {
+    padding: 1rem 36px 17px 8px;
+  }
+
+  /* Product css end */
+
+  /* Popular categories css start */
+  .popularCategoriesHome .carousel-control-prev {
+    left: -12%;
+    width: 19%;
+    height: 1px !important;
+  }
+
+  .popularCategoriesHome .carousel-control-next {
+    width: 7%;
+  }
+
+  .categoriesBg {
+    border: 3px solid #f7ab01;
+    padding-top: 22px;
+    border-radius: 50%;
+    background: transparent;
+    transition: 0.5s;
+  }
+
+  .popularCol {
+    width: 25%;
+  }
+
+  .oragnsTop {
+    margin-top: 0px;
+  }
+
+  /* Popular categories css end */
+
+  /* New Arrivals css start */
+  .newArrivals .carousel-control-prev {
+    left: -2.67rem;
+    visibility: hidden;
+  }
+
+  .crdBtn {
+    font-size: 8px;
+  }
+
+  .crdBtnPopular {
+    position: absolute;
+    bottom: -4.5%;
+    left: 2% !important;
+    font-size: 10px;
+  }
+
+  .arrivalMedName {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .crdBtn {
+    position: absolute;
+    bottom: -1rem;
+    left: 0.6rem;
+  }
+
+  .prevNext {
+    visibility: hidden;
+  }
+
+  .newArrivals .carousel-control-next {
+    visibility: hidden;
+  }
+
+  /* New Arrivals css end */
+
+  /* Upload css start */
+  .uploadText {
+    font-size: 16px;
+  }
+
+  /* Upload css end */
+
+  /* Featured css start */
+  .nextFeature {
+    visibility: hidden;
+  }
+
+  .prevFeature {
+    visibility: hidden;
+    position: absolute;
+    bottom: 4rem;
+  }
+
+  .nexT {
+    visibility: hidden;
+  }
+
+  .preV {
+    visibility: hidden;
+  }
+
+  /* Featured css end */
+
+  /* Product css start */
+  .medicationProduct {
+    height: 20rem;
+  }
+
+  /* Product css end */
+
+  /* Latest review css start */
+  .nexT {
+    position: absolute;
+    right: 0rem !important;
+    bottom: 3rem;
+  }
+
+  .preV {
+    visibility: hidden;
+  }
+
+  .nexT {
+    visibility: hidden;
+    position: absolute;
+    right: 0rem !important;
+  }
+
+  .prevHealth {
+    visibility: hidden;
+  }
+
+  .health .col5 {
+    width: 20%;
+  }
+
+  .saltCompFnt {
+    font-size: 11px;
+  }
+
+  .bracia {
+    font-size: 14px;
+  }
+
+  /* Latest review css end */
+
+  /* Flexible css start */
+  .priceContent {
+    font-size: 14px;
+  }
+
+  /* Flexible css end */
+
+  /* Healthcare css start */
+  .healthcareImpact {
+    background-color: #f6ab01;
+  }
+
+  .socialMedia {
+    width: 87%;
+    display: flex;
+  }
+
+  .health .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem 2rem 1rem;
+    height: 100%;
+  }
+
+  /* Healthcare css end */
+
+  /* Top selling css */
+  .topSellingRow {
+    margin-top: 2rem;
+  }
+
+  .mobHght {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .medicineHead {
+    font-weight: 700;
+    font-size: 19px;
+  }
+
+  .health .col5 {
+    width: 33.33333333333333%;
+  }
+
+  .healthLeft {
+    visibility: hidden;
+  }
+
+  .healthRight {
+    visibility: hidden;
+  }
+
+  /* Top selling end */
+
+  /* Blog css new start */
+  .prevBlog {
+    visibility: hidden
+  }
+
+  /* Blog css new end */
+
+
+  /* Latest Review css new start */
+  .prevNextImg {
+    visibility: hidden;
+  }
+
+  /* Latest Review css new end */
+
+
+  /* New Arrivals new css start */
+  .newArrivalsNew .col5 {
+    width: 33%;
+  }
+
+  /* New Arrivals new css end */
+
+  /* Latest Review */
+  .prevRvwPrevHme {
+    visibility: hidden;
+  }
+
+  .prevNxtRvwHome {
+    visibility: hidden;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .textNowrap {
+    white-space: nowrap !important;
+    font-size: 10px;
+
+  }
+
+  .dealsf19 {
+    font-size: 23px;
+    cursor: pointer;
+  }
+
+  .heartLike {
+    position: absolute;
+    /* right: 2px; */
+    top: 0px;
+    font-size: -13px;
+  }
+
+
+  .bgHeart {
+    width: 30px;
+    height: 25px;
+
+  }
+
+  .medicineWidth {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 0 auto;
+  }
+
+  .banner .custom-file-upload {
+    color: #f00;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 8px;
+  }
+
+  .popularCol {
+    width: 33%;
+  }
+
+  .popularCategoriesHome .carousel-control-prev-icon {
+    visibility: hidden;
+  }
+
+  .popularCategoriesHome .carousel-control-next-icon {
+    visibility: hidden;
+  }
+
+  .countNum {
+    font-size: 11px;
+  }
+
+  .countDate {
+    font-size: 17px;
+  }
+
+  .add2cart {
+    font-size: 12px;
+  }
+
+  /* Top selling css */
+  .topSellingRow {
+    margin-top: 2rem;
+  }
+
+  .mobHght {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Medication Products */
+
+  .simplifyWrapCon {
+    margin-top: 2rem;
+  }
+
+  .mobHght {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .medicineHead {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .socialMedia {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .health .col5 {
+    width: 50%;
+  }
+
+  .healthLeft {
+    visibility: hidden;
+  }
+
+  .healthRight {
+    visibility: hidden;
+  }
+
+  /* Health carosouel css start */
+  .productHeight {
+    height: 201px;
+  }
+
+  /* Health carosouel css end */
+
+  /* Blog css new start */
+  .prevBlog {
+    visibility: hidden
+  }
+
+  /* Blog css new end */
+
+  /* Latest Review css new start */
+  .prevNextImg {
+    visibility: hidden;
+  }
+
+  .nexT {
+    position: absolute;
+    bottom: 2rem;
+    right: -1rem !important;
+  }
+
+  /* Latest Review css new end */
+
+  /* New Arrivals new css start */
+  .newArrivalsNew .col5 {
+    width: 50%;
+  }
+
+  /* New Arrivals new css end */
+
+
+  /* Featured css start */
+  .prevFeaturedImgright {
+    position: absolute !important;
+    right: -32px;
+    top: 83px;
+    width: 31px !important;
+    visibility: hidden;
+  }
+
+  .prevFeaturedImgleft {
+    position: absolute !important;
+    left: -32px;
+    top: 83px;
+    width: 31px !important;
+    visibility: hidden;
+  }
+
+  /* Latest Review */
+  .prevRvwPrevHme {
+    visibility: hidden;
+  }
+
+  .prevNxtRvwHome {
+    visibility: hidden;
+  }
+
+
+  .oragnsTop {
+    margin-top: 24px !important;
+  }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .medText {
+    margin: 0 4rem 0 0;
+  }
+  .forOtp input {
+    padding: 0.7rem 0.2rem;
+    font-size: 15px;
+  }
+  .FnCentR {
+    text-align: center;
+  }
+  .medicineWidth {
+    width: 250px;
+    height: 190px !important;
+    margin: 0 auto;
+  }
+
+  .banner .custom-file-upload {
+    color: #f00;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 8px;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .search2 {
+    width: 4.5%;
+  }
+
+  .downArw {
+    color: black;
+    width: 19px;
+    right: -9px;
+    padding-top: 10px;
+    padding-left: 4px;
+    font-size: 10px;
+  }
+
+  .banner .form-floating>.form-control {
+    padding: 1rem 0px 17px 8px;
+  }
+
+  .banner ::placeholder {
+    font-size: 11px;
+  }
+
+  /* Popular categories css start */
+  .popularCategoriesHome .carousel-control-next {
+    right: 5%;
+    width: 25%;
+    height: 9%;
+    top: 42%;
+  }
+
+  .popularCategoriesHome .carousel-control-prev {
+    left: -15%;
+    width: 62%;
+    height: 10%;
+    top: 42%;
+  }
+  .bgArrow.px-2.py-1 {
+    height: 35px;
+    width: 35px;
+  }
+  .categoriesBg {
+    border: 3px solid #f7ab01;
+    border-radius: 50%;
+    background: transparent;
+    transition: 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+
+  .popularCol {
+    width: 50%;
+  }
+
+  .popularCategoriesHome .carousel-control-next {
+    visibility: hidden;
+  }
+
+  .popularCategoriesHome .carousel-control-prev {
+    visibility: hidden;
+  }
+
+  /* Popular categories css end */
+
+  /* New Arrivals Css start */
+  .newArrivals .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 46%;
+    height: 123%;
+  }
+
+  .newArrivals .carousel-control-prev {
+    left: 0rem;
+    visibility: hidden;
+  }
+
+  .newArrivals .carousel-control-next {
+    right: 0%;
+    visibility: hidden;
+  }
+
+  .crdBtn {
+    position: absolute;
+    bottom: 0rem;
+    left: 35%;
+  }
+
+  .productHeightArrivals {
+    height: 49%;
+  }
+
+  .btncartHght {
+    height: 37px !important;
+  }
+
+  .newArrivalsNew .card-body {
+    flex: 1 1 auto;
+    padding: 2rem 1rem;
+    /* height: 172px; */
+    height: 100% !important;
+  }
+
+
+  /* New Arrivals css end */
+
+  /* Get a medicine css start */
+  .getaMedicine {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .medicationProduct {
+    padding: 3rem 0;
+  }
+
+  /* Get a medicine css end */
+
+  /* Featured brands css start */
+  .brandImages {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .featuredBrand .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 1.5rem;
+  }
+
+  /* Featured css end */
+
+  /* Deals of the day css start */
+  .prdctCol {
+    width: 100%;
+  }
+
+  .medicationProduct {
+    height: 0%;
+  }
+
+  /* Deals of the day css end */
+
+  /* Blog css start */
+  .blog .carousel-control-next {
+    visibility: hidden;
+  }
+
+  .blog .carousel-control-prev {
+    visibility: hidden;
+  }
+
+  /* Blog css end */
+
+  /* Healthcare css start */
+  .healthcareImpact {
+    background-color: #f6ab01;
+  }
+
+  .crdBtn {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 3rem;
+  }
+
+  .socialMedia {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col7Health {
+    margin-top: 3rem;
+  }
+
+  .health .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem 4rem 1rem;
+    height: 100%;
+  }
+
+  /* Carosouel css start */
+  .crdBtnHealth {
+    position: absolute;
+    bottom: 11px;
+    left: 24%;
+  }
+
+  .productHeight {
+    height: 70%;
+  }
+
+  .heartRound {
+    position: absolute;
+    top: 7px;
+    /* Carosouel css end */
+  }
+
+  .nextIconMobHealth {
+    visibility: hidden;
+  }
+
+  /* == Healthcare css end == */
+
+  /* === Returns and Delivery Css start */
+  .medicineHead {
+    font-weight: 700;
+    font-size: 19px;
+  }
+
+  /* === Returns and Delivery Css end */
+
+  .mobHght {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .userInput {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .mediProduct {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardGap {
+    padding: 0;
+  }
+
+  /* Modal */
+  .forOtp input {
+    width: 57px;
+  }
+
+  /* Top selling css */
+  .topSellingRow {
+    margin-top: 1.3rem;
+  }
+
+  /* Blog css new start */
+  .prevBlog {
+    visibility: hidden
+  }
+
+  .blog .card {
+    border: 1px solid #F6AB01;
+  }
+
+  /* Blog css new end */
+
+  /* Latest Review */
+  .prevRvwPrevHme {
+    visibility: hidden;
+  }
+
+  .prevNxtRvwHome {
+    visibility: hidden;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .banner {
+    height: 25rem;
+  }
+
+  .search2 {
+    width: 6%;
+    right: 4%;
+  }
+
+  .ordrBtn {
+    font-size: 11px;
+  }
+
+  .banner .custom-file-upload {
+    color: #f00;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    padding-top: 2px;
+  }
+
+  .banner ::placeholder {
+    color: #5f5f5f !important;
+    opacity: 1;
+    /* Firefox */
+    font-weight: 600;
+    padding-left: 8px;
+    font-size: 13px;
+  }
+
+  /* New Arrivals css start */
+  .crdBtn {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 3rem;
+  }
+
+  /* New Arrivals css end */
+
+  /* Deals of the day css start */
+  .countNum {
+    font-size: 11px;
+  }
+
+  /* Modal Register */
+
+  .modalRegister ::placeholder {
+    font-size: 9px;
+    width: 156px;
+    padding-left: 5px;
+  }
+
+  .modalRegister :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 9px;
+    width: 156px;
+    padding-left: 5px;
+  }
+
+  .modalRegister ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 9px;
+    width: 156px;
+    padding-left: 5px;
+  }
+
+  /* New Arrivals new css start*/
+  .productHeightArrivals {
+    height: 40%;
+  }
+
+
+  /* New Arrivals new css end*/
+}
+
+@media (min-width: 321px) and (max-width: 376px) {
+
+  .crdBtnHealth {
+    position: absolute;
+    bottom: 11px;
+    left: 26%;
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* New Arrivals css start */
+  .crdBtn {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 4.5rem;
+  }
+
+  /* New Arrivals css end */
+
+  /* Banner css */
+  .ordrBtn {
+    font-size: 14px !important;
+  }
+
+  .banner .custom-file-upload {
+    padding-top: 6px;
+  }
+
+  .banner ::placeholder {
+    color: #5f5f5f !important;
+    opacity: 1;
+    /* Firefox */
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: 13px;
+  }
+
+  /* Modal Register */
+
+  .modalRegister ::placeholder {
+    font-size: 12px;
+    width: 156px;
+    padding-left: 5px;
+  }
+
+  .modalRegister :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 12px;
+    width: 156px;
+    padding-left: 5px;
+  }
+
+  .modalRegister ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 11px;
+    width: 156px;
+    padding-left: 5px;
+  }
+
+  .forOtp input {
+    font-size: 28px;
+  }
+
+  /* New Arrivals new css start*/
+  .productHeightArrivals {
+    height: 45%;
+  }
+
+
+
+  /* New Arrivals new css end */
+
+  .socialMedia {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 575px) {
+
+  .crdBtnHealth {
+    position: absolute;
+    bottom: 11px;
+    left: 30%;
+  }
+  .prdctcnTnt {
+    left: 30px;
+    text-align: justify;
+  }
+
+  /* Top Selling */
+
+  .prdctimage1 {
+    width: 33% !important;
+  }
+
+  .prdctimage2 {
+    width: 27%;
+  }
+
+  .prdctimage3 {
+    width: 21%;
+  }
+
+  .prdctimage4 {
+    width: 33%;
+  }
+
+  /* New Arrivals new css start*/
+  .productHeightArrivals {
+    height: 506px;
+  }
+
+
+
+  /* New Arrivals new css end */
+
+  .socialMedia {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width:320px) {
+  .socialMedia {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.categoriesBg img {
+  width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Arrivals Start */
+.newArrivalRct .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 26px 0;
+}
+
+.newArrivalRct .slick-next:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.newArrivalRct .slick-prev:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* .newArrivalRct {
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+} */
+
+.newArrivalRct .slick-next {
+  right: -38px;
+}
+
+/* New Arrivals end */
+
+/* Health Supplement Start */
+.heathSuppleRct .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 26px 0;
+}
+
+
+.heathSuppleRct .slick-next:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: -13px;
+  top: 0;
+}
+
+.heathSuppleRct .slick-prev:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.blogCrsl .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 26px 0;
+}
+
+
+.blogCrsl .slick-next:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: #FFF8E6;
+  padding: 8px;
+  position: absolute;
+  right: -13px;
+  top: 0;
+}
+
+.blogCrsl .slick-prev:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: #FFF8E6;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Health Supplement End */
+
+
+/* WHY CHOOSE US */
+.chseUsHght {
+  width: 135px;
+  height: 135px;
+  border: 2px dashed #F6AB01;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.chseImg {
+  margin-top: 28px !important;
+}
+
+.chseImg2 {
+  margin-top: 30px !important;
+}
+
+
+.heightProduct img {
+  width: 125px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.newArrivalRct .slick-slide img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Rct Ppl Crsl */
+.pplCrsl .slick-prev:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: -30px !important;
+  top: -21px !important;
+}
+
+.pplCrsl .slick-next:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: 30px !important;
+  top: -21px !important;
+}
+
+.crdBtnArrivals {
+
+  display: block !important;
+  margin: 0 auto;
+
+  position: absolute;
+
+  right: 0;
+
+  left: 0;
+
+  white-space: nowrap;
+  width: 144px;
+
+  bottom: -17px;
+
+}
+
+
+.categoriesBg img {
+  display: block;
+  margin: 0 auto;
+}
+
+.medicineWidth {
+  width: 250px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+
+.bgArrowWidth {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.3s;
+}
+
+.bgArrowWidth:hover {
+  background-color: rgb(255, 1, 1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.bsRight {
+  color: #ee3124;
+  font-size: 31px;
+  position: absolute;
+  top: -12px;
+  left: -1px;
+}
+
+.bsRight:hover {
+  color: #ffffff;
+}
+
+.divImgHght img {
+  height: 200px;
+}
+
+.search1{
+  position: relative;
+}
+
+.seacrhIcon {
+  position: absolute;
+  right: 7px;
+  bottom: 16px;
+  font-size: 21px;
+  top: 18px;
+}
+  .bnrFrm [type=button], [type=reset], button {
+    display: none;
+  }
+/* Media query start */
+@media (min-width: 1440px) {
+
+  .featuredBrand p {
+    padding: 0 74px;
+
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .slick-next:before {
+    right: -8px;
+    top: 0;
+  }
+
+  .slick-prev:before {
+    right: -6px;
+    top: 0;
+  }
+
+
+  .featuredBrand p {
+    padding: 0 50px;
+
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .slick-next:before {
+    right: -5px;
+    top: 0;
+  }
+
+  .slick-prev:before {
+    right: -4px;
+    top: 0;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slick-next:before {
+    right: -4px;
+    top: 0;
+  }
+  .forOtp input {
+    padding: 0.7rem 0.2rem;
+    font-size: 15px;
+  }
+  .slick-prev:before {
+    right: -6px;
+    top: 0;
+  }
+
+  .productHeightArrivals {
+    height: 240px;
+  }
+
+  .medicineWidth {
+
+    width: 206px;
+
+    height: 230px;
+
+    margin: 0 auto;
+
+  }
+}
+
+
+/* .heightProduct {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+.heightProduct img {
+  width: 125px !important;
+  height: 125px;
+  display: block !important;
+  margin: 0 auto;
+  object-fit: scale-down;
+}
+
+.pplCrsl .slick-prev:before {
+  /* content: "\2794" !important; */
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: -31px !important;
+  top: -24px !important;
+}
+
+/* button effects */
+.btn.bgRed.text-white.my-2.ordrBtn:hover {
+  background: #F6AB01 !important;
+}
+
+.btn.bgRed.text-white.my-2.ordrBtn {
+  transition: 0.5s;
+}
+
+.btn.fw-bold.bg-white.textRed.mx-2.add2cart:hover,
+.btn.fw-bold.bg-white.textRed.mx-2.add2cart:focus {
+  box-shadow: inset 0 0 0 2em #F6AB01;
+  border: #F6AB01;
+  color: #fff;
+}
+
+.btn.fw-bold.bg-white.textRed.mx-2.add2cart {
+  transition: 0.5s;
+  height: 42px;
+}
+
+.btn.bg-warning.fw-bold.crdBtnHealth:hover,
+.btn.bg-warning.fw-bold.crdBtnHealth:focus {
+  box-shadow: inset 0 0 0 2em #f60101;
+  border: #f60101;
+  color: #fff;
+}
+
+.btn.bg-warning.fw-bold.crdBtnHealth {
+  transition: 0.5s;
+}
+
+.btn.bg-warning.fw-bold.crdBtnArrivals:hover,
+.btn.bg-warning.fw-bold.crdBtnArrivals:focus {
+  box-shadow: inset 0 0 0 2em #f60101;
+  border: #f60101;
+  color: #fff;
+}
+
+.btn.bg-warning.fw-bold.crdBtnArrivals {
+  transition: 0.5s;
+}
+
+.card-body h5:hover {
+  color: #F6AB01;
+}
+@media (max-width: 481px) {
+  .MEdAliGn{
+    padding-left: 50px;
+  }
+  .forOtp input {
+    padding: 0.7rem 0.2rem;
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .FOnTSiZE {
+    font-size: 17px;
+  }
+  .forOtp input {
+    padding: 0.7rem 0.2rem;
+    font-size: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .MEdAliGn{
+    padding-left: 0px;
+  }
+  .forOtp input {
+    padding: 0.7rem 0.2rem;
+    font-size: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .prdctcnTnt {
+    left: 30px;
+    text-align: initial;
+  }
+  .forOtp input {
+    padding: 0.7rem 0.2rem;
+    font-size: 15px;
+  }
+}
+
+/* new css */
+.banner h1 {
+  color: #1D1D1D;
+}
+.banner p {
+  font-family: 'Montserrat', sans-serif;
+font-weight: 500 !important;
+font-size: 16px;
+}
+.productDiv:hover {
+  background: red;
+}
+.productDiv:hover i {
+  color: #fff;
+}
+.hlthImpctFnt {
+  line-height: 25px;
+  margin-bottom: 28px;
+}
+
+.btn.bgYellow.MEdiaYellOW.fw-bold.mx-lg-2 {
+  margin-left: 18px;
+}
+
+.medicationProduct {
+  height: 100%;
+}

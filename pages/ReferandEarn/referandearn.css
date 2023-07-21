@@ -1,0 +1,31 @@
+.codeNum {
+    letter-spacing: 8px;
+}
+
+.coPy {
+    background: #FFE2E1 0% 0% no-repeat padding-box;
+    border: 1px solid #EE3124;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.coPy:hover {
+    background: #FFE2E1 0% 0% no-repeat padding-box;
+    border: 1px solid #EE3124;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.referEarn {
+    font-size: 20px;
+}
+
+
+.referEarn .btn-primary:focus {
+    color: #fff;
+    border-color: none;
+    box-shadow: none;
+}
+
+.referEarn .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}

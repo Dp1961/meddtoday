@@ -1,0 +1,245 @@
+.brdrRecentReview {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.navAndTabscategories .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #000000;
+    background-color: #F6AB01;
+}
+
+.freeQuent .accordion-button:not(.collapsed) {
+    color: #000000;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    background-color: #FFF3D6;
+}
+
+.navPillsBG {
+    background-color: #FFF3D6;
+}
+
+.orDer .accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #FFF3D6;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.doloImageCategories {
+    width: 171px;
+    padding: 2rem 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mtUp{    
+    margin-top: -5px;
+}
+
+/* Dropdown css start */
+.orDer .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.orDer .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.orDer .select select::-ms-expand {
+    display: none;
+}
+
+.orDer .select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #ffffff;
+}
+
+.orDer .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.orDer .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.orDer .select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+    border-top-color: #000000;
+}
+
+.orDer .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+}
+
+/* Drop down css end */
+
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #db1b1b;
+    transition: width .6s ease;
+}
+
+/* Drop down css end */
+
+
+.progressGreen {
+    background-color: #76DC99;
+    width: 75%;
+    border-radius: 4px;
+}
+
+.progressLightGreen {
+    background-color: #B7EA83;
+    width: 25%;
+    border-radius: 4px;
+}
+
+.progressYellow {
+    background-color: #F6D757;
+    width: 10%;
+    border-radius: 4px;
+}
+
+.progressOrange {
+    background-color: #FBB851;
+    width: 5%;
+    border-radius: 4px;
+}
+
+.progressBiscuit {
+    background-color: #F17A55;
+    width: 10%;
+    border-radius: 4px;
+}
+
+.tabImgSize {
+    width: 30%;
+}
+
+/* Media query start */
+
+@media (min-width:1440px) {
+    .navCustom2 {
+        margin-left: -5rem;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navCustom2 {
+        margin-left: -2rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navCustom2 {
+        margin-left: -2rem;
+    }
+
+    .addCrt {
+        font-size: 20px;
+    }
+
+    .col4mbSpace {
+        margin-bottom: 3rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navCustom2 {
+        margin-left: -2rem;
+    }
+
+    .col4mbSpace {
+        margin-bottom: 3rem;
+    }
+
+    .allSpaceCate {
+        margin-top: 3rem;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .navCustom2 {
+        margin-left: -2rem;
+    }
+
+    .col4mbSpace {
+        margin-bottom: 3rem;
+    }
+
+    .doloImageCategories {
+        width: 120px;
+        padding: 2rem 0;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .mtUp{    
+        margin-top: 0px;
+    }
+    
+    .navButnClr {
+        font-size: 13px;
+    }
+    
+
+    .acdrnFnt{
+        font-size: 19px;
+    }
+
+    .customerReview{
+        margin: 1rem 0rem;
+    }
+
+    .reviewDate{
+        margin-top: 8px;
+    }
+
+    .addCrt{
+        font-size: 19px;
+    }
+}
+
+
+@media (min-width:426px) and (max-width:575px) {
+    .offColCustom {
+        width: 50%;
+    }
+}

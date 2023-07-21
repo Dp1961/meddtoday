@@ -1,0 +1,744 @@
+.dwnLoad {
+  border: 1px solid #ee3124;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.fw18 {
+  font-size: 20px;
+}
+
+.shippingDetails .card {
+  border: 1px solid #ee3124;
+  border-radius: 4px;
+}
+
+
+.orderProdutImg img {
+  width: 50px !important;
+  height: 50px !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.fs19 {
+  font-size: 19px;
+}
+
+.presImg {
+  cursor: pointer;
+}
+
+/* Tracking Progress Bar CSS Start */
+.sizeMeasured {
+  width: 34.688rem;
+  margin: 0 auto;
+}
+
+.trackingProgress .progress-meter {
+  padding: 0;
+}
+
+.trackingProgress ol.progress-meter {
+  padding-bottom: 9.5px;
+  list-style-type: none;
+}
+
+.trackingProgress ol.progress-meter li {
+  display: inline-block;
+  text-align: center;
+  text-indent: -86px;
+  height: 36px;
+  width: 24.99%;
+  font-size: 12px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+}
+
+.trackingProgress ol.progress-meter li:before {
+  position: relative;
+  float: left;
+  text-indent: 0;
+  left: -webkit-calc(50% - 9.5px);
+  left: -moz-calc(50% - 9.5px);
+  left: -ms-calc(50% - 9.5px);
+  left: -o-calc(50% - 9.5px);
+  left: calc(50% - 9.5px);
+}
+
+.trackingProgressol .progress-meter li.done {
+  font-size: 12px;
+}
+
+.trackingProgress ol.progress-meter li.done:before {
+  content: "\2713";
+  height: 19px;
+  width: 19px;
+  line-height: 21.85px;
+  bottom: -24.175px;
+  border: none;
+  border-radius: 19px;
+  background: gray;
+  left: 6.5rem;
+}
+
+.trackingProgress ol.progress-meter li.todo {
+  font-size: 12px;
+}
+
+.trackingProgress ol.progress-meter li.todo:before {
+  content: "\2B24";
+  font-size: 17.1px;
+  bottom: -26.95px;
+  line-height: 18.05px;
+  left: 7rem;
+}
+
+.trackingProgress ol.progress-meter li.done {
+  color: black;
+}
+
+.trackingProgress ol.progress-meter li.done:before {
+  color: white;
+}
+
+.trackingProgress ol.progress-meter li.todo {
+  color: silver;
+  border-bottom-color: silver;
+}
+
+.trackingProgress ol.progress-meter li.todo:before {
+  color: silver;
+}
+
+.trackingProgress .liOne {
+  border-bottom: 2px solid red;
+}
+
+.trackingProgress .liTwo {
+  border-bottom: 2px solid #f6ab01;
+}
+
+.trackingProgress .liThree {
+  border-bottom: 2px solid #0ee70e;
+}
+
+.trackingProgress .progressPstn {
+  position: relative;
+}
+
+.trackingProgress .placed2 {
+  position: absolute;
+  top: 3rem;
+}
+
+.trackingProgress .proceesing {
+  position: absolute;
+  left: 10.5rem;
+  top: 3rem;
+}
+
+.trackingProgress .delivery {
+  position: absolute;
+  left: 21.5rem;
+  bottom: -2.6rem;
+}
+
+.trackingProgress .delivered {
+  position: absolute;
+  left: 32.5rem;
+  top: 3rem;
+}
+
+/* Tracking Progress Bar CSS End */
+
+/* Dropdown css start */
+.dropDownOD .select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100% !important;
+}
+
+.dropDownOD .select select::-ms-expand {
+  display: none;
+}
+
+.dropDownOD .select select:hover,
+.select select:focus {
+  color: #000000;
+  background: #eeeeee;
+}
+
+.dropDownOD .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.dropDownOD .select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+  border-top-color: #000000;
+}
+
+.dropDownOD .select select:disabled~.select_arrow {
+  border-top-color: #cccccc;
+}
+
+/* Drop down css end */
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #db1b1b;
+  transition: width 0.6s ease;
+}
+
+/* Drop down css end */
+
+/* Modal CSS Start */
+.orderDetails .modal {
+  backdrop-filter: blur(5px);
+}
+
+/* Modal CSS End */
+
+/* Media query start */
+@media (min-width: 1440px) {
+  .sizeMeasured {
+    width: 43.688rem;
+    margin: 0 auto;
+  }
+
+  .trackingProgress ol.progress-meter li.done:before {
+    left: 10.5rem;
+  }
+
+  .trackingProgress ol.progress-meter li {
+    text-indent: -153px;
+  }
+
+  .date {
+    text-indent: -145px !important;
+  }
+
+  .noneofBR {
+    display: none;
+  }
+
+  /* DropDown CSS Start */
+  .dropDownOD .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .dropDownOD .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  /* DropDown CSS End */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  /* Dropdown css start */
+  .dropDownOD .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .dropDownOD .select select::-ms-expand {
+    display: none;
+  }
+
+  .dropDownOD .select select:hover,
+  .select select:focus {
+    color: #000000;
+    background: #cccccc;
+  }
+
+  .dropDownOD .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .dropDownOD .select select:hover~.select_arrow,
+  .select select:focus~.select_arrow {
+    border-top-color: #000000;
+  }
+
+  .dropDownOD .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+  }
+
+  .dropDownOD .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .dropDownOD .select_arrow {
+    position: absolute;
+    top: 18px;
+    right: 14px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  /* Drop down css end */
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .date {
+    text-indent: -108px !important;
+  }
+
+  .sizeMeasured {
+    width: 30.688rem;
+    margin: 0 auto;
+  }
+
+  .trackingProgress ol.progress-meter li.done:before {
+    left: 7.5rem;
+  }
+
+  .trackingProgress .proceesing {
+    left: 8rem;
+    font-size: 11px;
+  }
+
+  .trackingProgress .delivery {
+    left: 17rem;
+  }
+
+  .trackingProgress .delivered {
+    left: 25.5rem;
+  }
+
+  .noneofBR {
+    display: none;
+  }
+
+  /* DropDown CSS Start */
+  .dropDownOD .select select {
+    display: inline-block;
+    width: 125% !important;
+    cursor: pointer;
+    padding: 8px 17px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .dropDownOD .select_arrow {
+    position: absolute;
+    top: 18px;
+    right: -10px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  /* DropDown CSS End */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sizeMeasured {
+    width: 20.688rem;
+    margin: 0 auto;
+  }
+
+  .trackingProgress ol.progress-meter li.done:before {
+    left: -0.5rem;
+  }
+
+  .trackingProgress .placed2 {
+    position: absolute;
+    top: 3rem;
+    font-size: 12px;
+  }
+
+  .trackingProgress .proceesing {
+    position: absolute;
+    left: 9.5rem;
+    top: 3rem;
+    font-size: 15px;
+  }
+
+  .trackingProgress .delivery {
+    position: absolute;
+    left: 19.3rem;
+    top: 3rem;
+    font-size: 15px;
+  }
+
+  .trackingProgress .delivered {
+    position: absolute;
+    left: 28.9rem;
+    top: 3rem;
+    font-size: 15px;
+  }
+
+  .date {
+    text-indent: -123px !important;
+  }
+
+  .noneofBR {
+    display: none;
+  }
+
+  /* DropDown CSS Start */
+  .dropDownOD .select select {
+    display: inline-block;
+    width: 125%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .dropDownOD .select_arrow {
+    position: absolute;
+    top: 18px;
+    right: -11px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  /* DropDown CSS End */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .noneofBR {
+    display: none;
+  }
+
+  .dropDownOD .select select {
+    display: inline-block;
+    width: 125%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .trackingProgress .proceesing {
+    position: absolute;
+    left: 6.5rem;
+    top: 3rem;
+    font-size: 12px;
+  }
+
+  .trackingProgress .delivery {
+    position: absolute;
+    left: 13.5rem;
+    font-size: 12px;
+    top: 47px;
+  }
+
+  .trackingProgress .delivered {
+    position: absolute;
+    left: 20.5rem;
+    top: 3rem;
+    font-size: 12px;
+  }
+
+  .dropDownOD .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+  }
+
+  .paraUnqu {
+    margin: 0 46px 0 0;
+  }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .sizeMeasured {
+    width: 20.688rem;
+    margin: 0 auto;
+  }
+
+  .trackingProgress .placed2 {
+    position: absolute;
+    top: 3rem;
+    font-size: 9px;
+  }
+
+  .trackingProgress .proceesing {
+    position: absolute;
+    left: 4rem;
+    top: 3rem;
+    font-size: 9px;
+  }
+
+  .trackingProgress .delivery {
+    position: absolute;
+    left: 9rem;
+    top: 3rem;
+    font-size: 9px;
+  }
+
+  .trackingProgress .delivered {
+    position: absolute;
+    left: 13.5rem;
+    top: 3rem;
+    font-size: 9px;
+  }
+
+  .trackingProgress ol.progress-meter li.done:before {
+    left: -0.5rem;
+  }
+
+  .trackingProgress ol.progress-meter li {
+    width: 20.99%;
+  }
+
+  .date {
+    text-indent: -61px !important;
+  }
+
+  .livePara {
+    padding-right: 3rem;
+  }
+
+  /* Dropdown css start */
+  .dropDownOD .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .dropDownOD .select select::-ms-expand {
+    display: none;
+  }
+
+  .dropDownOD .select select:hover,
+  .select select:focus {
+    color: #000000;
+    background: #cccccc;
+  }
+
+  .dropDownOD .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .dropDownOD .select select:hover~.select_arrow,
+  .select select:focus~.select_arrow {
+    border-top-color: #000000;
+  }
+
+  .dropDownOD .select select:disabled~.select_arrow {
+    border-top-color: #cccccc;
+  }
+
+  .dropDownOD .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .dropDownOD .select_arrow {
+    position: absolute;
+    top: 18px;
+    right: 14px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  /* Drop down css end */
+}
+
+/* Customized Media Query */
+@media (min-width: 0px) and (max-width: 320px) {
+  .trackingProgress ol.progress-meter li {
+    width: 17.99%;
+  }
+
+  .sizeMeasured {
+    width: 16.688rem;
+    margin: 0 auto;
+  }
+
+  .paraALL {
+    font-size: 19px;
+  }
+
+  .trackingProgress .placed2 {
+    position: absolute;
+    top: 3rem;
+    font-size: 6px;
+  }
+
+  .trackingProgress .proceesing {
+    position: absolute;
+    left: 4rem;
+    top: 3rem;
+    font-size: 6px;
+  }
+
+  .trackingProgress .delivery {
+    position: absolute;
+    left: 9rem;
+    top: 3rem;
+    font-size: 6px;
+  }
+
+  .trackingProgress .delivered {
+    position: absolute;
+    left: 12.5rem;
+    top: 3rem;
+    font-size: 6px;
+  }
+
+  .trackingProgress ol.progress-meter li {
+    width: 22.99%;
+  }
+
+  .storvas {
+    margin: 0 30px 0 0 !important;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .sizeMeasured {
+    width: 23.688rem;
+    margin: 0 auto;
+  }
+
+  .trackingProgress .delivered {
+    position: absolute;
+    left: 16rem;
+    top: 3rem;
+    font-size: 9px;
+  }
+
+  .trackingProgress .delivery {
+    position: absolute;
+    left: 10.5rem;
+    top: 3rem;
+    font-size: 9px;
+  }
+
+  .trackingProgress .proceesing {
+    position: absolute;
+    left: 5rem;
+    top: 3rem;
+    font-size: 9px;
+  }
+}
+
+.dropDownOD select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  border: 1px solid #757575;
+}
+
+/* Style the option elements */
+.dropDownOD option {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the label element */
+.dropDownOD label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.bgLightYellow.d-md-flex.justify-content-between.px-0.py-2 img {
+  width: 80px;
+  height: 73px;
+  padding-right: 10px;
+}
+.DATAboRder {
+  border: 1px solid #F1F1F1;
+  margin-right: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background: #F1F1F1;
+  font-size: 15px;
+}
+.FSize {
+  font-size: 15px;
+}
+.FSizeTwo {
+  font-size: 14px;
+}

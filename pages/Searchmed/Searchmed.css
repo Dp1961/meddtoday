@@ -1,0 +1,544 @@
+.results {
+    font-size: 20px;
+}
+
+.doloMed {
+    font-size: 20px;
+}
+
+.SearchMedLeft {
+    cursor: pointer;
+    width: 41px;
+}
+
+.crdBtnSearchMed {
+    position: absolute;
+    bottom: -20px;
+    left: 18%;
+}
+
+/* Dropdown css start */
+.dolo .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.dolo .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 34px 8px 13px;
+    outline: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    color: #000000;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.dolo .select select::-ms-expand {
+    display: none;
+}
+
+.dolo .select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #ffffff;
+}
+
+.dolo .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.dolo .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.dolo .select select:hover~.select_arrow,
+.select select:focus~.select_arrow {
+    border-top-color: #000000;
+}
+
+.dolo .select select:disabled~.select_arrow {
+    border-top-color: #e2e2e2;
+}
+
+.dropDownOD .select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #ffffff;
+}
+
+/* Drop down css end */
+
+.saveCost1 {
+    position: relative;
+}
+
+/* .productTopSpcae {
+    margin-top: 1.5rem;
+} */
+
+.saveCost2 {
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+    top: 0;
+    border-radius: 5px 0px 5px 0px;
+    -moz-border-radius: 5px 0px 5px 0px;
+    -webkit-border-radius: 5px 0px 5px 0px;
+    border: 0px solid #000000;
+}
+
+.dolo .card {
+    padding: 2rem 0 1rem 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #757575;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+/* Col 4 css Start */
+.cartBg {
+    background-color: #989696;
+}
+
+.prescription {
+    font-size: 20px;
+}
+
+.hrLine {
+    border-bottom: 2px solid gray;
+}
+
+.docDetails {
+    font-size: 12px;
+}
+
+.rxImg {
+    object-fit: contain;
+}
+
+/* Col 4 css end */
+
+/* Similar Medicine Css start */
+
+.similarMedicineDolo {
+    background-color: #F1F1F1;
+}
+
+/* .similarMedicineDolo .card-body {
+    flex: 1 1 auto;
+    padding: 0 !important;
+} */
+
+.similarMedicineDolo .crd {
+    position: relative;
+}
+
+.crdBtn {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 23%;
+}
+
+.arrivalMedName {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.similarMedicineDolo .carousel-control-prev-icon {
+    background-image: url(../../assets/images/leftbgWhite.png);
+}
+
+.similarMedicineDolo .carousel-control-next-icon {
+    background-image: url(../../assets/images/rightbgwhite.png);
+
+}
+
+.similarMedicineDolo .carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 12%;
+    height: 123%;
+}
+
+.similarMedicineDolo .carousel-control-prev {
+    left: -5rem;
+}
+
+.similarMedicineDolo .carousel-control-next {
+    right: -6%;
+}
+
+.similarMedicineDolo .col5 {
+    width: 19%;
+}
+
+.pstnHelthLike {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #eaeaea;
+    padding: 3%;
+    cursor: pointer;
+}
+
+/* Similar Medicine Css end */
+
+/* Delivery CSS Start */
+.rwColorDeliveryDolo {
+    border-bottom: 2px solid #fcdad8;
+}
+
+/* Delivery CSS end */
+/* ============= Media Query Start =============== */
+
+/* Media query start */
+@media (min-width:1440px) {
+    .pstnHelth {
+        position: relative;
+    }
+
+    /* Similar css start */
+    .similarMedicineDolo .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 19%;
+        height: 11%;
+    }
+
+    /* Similar css end */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .docDetails {
+        font-size: 14px;
+    }
+
+    .crdBtnSearchMed {
+        position: absolute;
+        bottom: -20px;
+        left: 12%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+   
+
+    /* COL 4 CSS Start */
+    .prescription {
+        font-size: 15px;
+    }
+
+    .docDetails {
+        font-size: 18px;
+    }
+
+    /* COL 4 CSS Start */
+
+    /* Similar CSS Start */
+    .similarMedicineDolo .carousel-control-next {
+        right: -6%;
+        visibility: hidden;
+    }
+
+    .crdBtn {
+        position: absolute;
+        bottom: -1.5rem;
+        left: 6%;
+    }
+
+    .similarMedicineDolo .col5 {
+        width: 20%;
+    }
+
+    .similarMedicineDolo .card-body {
+        flex: 1 1 auto;
+        padding: 0rem 1rem;
+    }
+
+    /* Similar CSS end */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .results {
+        font-size: 15px;
+    }
+
+    /* COL 8 CSS Start */
+    .dolo .select select {
+        padding: 8px 20px 8px 4px;
+    }
+
+    .cartFnt {
+        font-size: 12px;
+    }
+
+    /* COL 8 CSS Start */
+
+    /* COL 4 CSS Start */
+    .prescription {
+        font-size: 15px;
+    }
+
+    .docDetails {
+        font-size: 16px;
+    }
+
+    /* COL 4 CSS Start */
+
+    /* Similar medicine css start */
+    .crdBtn {
+        position: absolute;
+        bottom: -1.5rem;
+        left: 0%;
+        font-size: 10px;
+    }
+
+    .similarMedicineDolo .card-body {
+        flex: 1 1 auto;
+        padding: 0rem 9px;
+    }
+
+    .similarMedicineDolo .carousel-control-next {
+        right: -6%;
+        visibility: hidden;
+    }
+
+    /* Similar medicine css end */
+
+    .cartTopSpace {
+        margin-top: 2rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .results {
+        font-size: 13px;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+    /* Similar css strat */
+    .similarMedicineDolo .carousel-control-next {
+        right: -6%;
+        visibility: hidden;
+    }
+
+    .similarMedicineDolo .crdBtn {
+        position: absolute;
+        bottom: 0rem;
+        left: 23%;
+    }
+
+    /* Similar css end */
+
+
+}
+
+@media (min-width:426px) and (max-width:575px) {
+    .crdBtnSearchMed {
+        position: absolute;
+        bottom: 13px;
+        left: 32%;
+    }
+}
+
+@media (min-width:376px) and (max-width:425px) {
+    .crdBtnSearchMed {
+        position: absolute;
+        bottom: 17px;
+        left: 27%;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px) {
+    .crdBtnSearchMed {
+        position: absolute;
+        bottom: 17px;
+        left: 27%;
+    }
+}
+
+@media (min-width:0px) and (max-width:365px) {
+    .crdBtnSearchMed {
+        position: absolute;
+        bottom: 15px;
+        left: 22%;
+    }
+}
+
+/* ============= Media Query Start =============== */
+
+
+
+/* Carosouel css */
+
+.similarMedicineSearchMed .health {
+    background-color: #f1f1f1;
+}
+
+.similarMedicineSearchMed .pstnHelthLike {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #eaeaea;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.similarMedicineSearchMed .card-body {
+    flex: 1 1 auto;
+    padding: 2rem 1rem;
+}
+
+.similarMedicineSearchMed .col5 {
+    width: 18%;
+}
+
+.similarMedicineSearchMed {
+    background-color: #f1f1f1;
+}
+
+.similarMedicineSearchMed p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prevHealthHome {
+    position: absolute;
+    top: 15rem;
+    width: 40px !important;
+}
+
+.productHeightSearchMed {
+    height: 54%;
+}
+
+.likeHghtSearchMed {
+    height: 50px;
+}
+
+
+/* Media query start */
+@media (min-width:1440px) {
+    .prevHealthSearchMed {
+        position: absolute;
+        top: 15rem;
+        width: 40px;
+        left: 10px;
+    }
+
+    .nextHealthSearchMed {
+        position: absolute;
+        right: 0;
+        top: 15rem;
+        right: 10px;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .nextHealthSearchMed {
+        position: absolute;
+        right: 0;
+        top: 15rem;
+        right: 10px;
+    }
+
+    .SearchMedLeft {
+        width: 40px !important;
+        position: absolute;
+        top: 240px;
+        left: 5px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* New Arrivals new css start */
+    .similarMedicineSearchMed .col5 {
+        width: 25%;
+    }
+
+    /* New Arrivals new css end */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* New Arrivals new css start */
+    .similarMedicineSearchMed .col5 {
+        width: 33%;
+    }
+
+    .SearchMedLeft {
+        visibility: hidden;
+    }
+
+    /* New Arrivals new css end */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* New Arrivals new css start */
+    .similarMedicineSearchMed .col5 {
+        width: 50%;
+    }
+
+    .SearchMedLeft {
+        visibility: hidden;
+    }
+
+    /* New Arrivals new css end */
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .similarMedicineSearchMed .card-body {
+        flex: 1 1 auto;
+        padding: 2rem 1rem;
+        height: 160px;
+    }
+}
+
+
+@media (min-width:425px) and (max-width:575px) {
+    .colCstmSrchMed {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+}
+.MsgTOUnfonD {
+    font-size: 18px;
+  }
+  .MsgTOUnfonD a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+  }

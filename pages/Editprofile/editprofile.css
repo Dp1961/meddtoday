@@ -1,0 +1,31 @@
+.editBtn {
+    background: #FFE2E1;
+    border: 2px solid #EE3124;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.addressBtn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #C8C8C8;
+    border-radius: 30px;
+    opacity: 1
+}
+
+.formCard .form-control:focus {
+    color: #212529;                                                                                                                        
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+@media (min-width:0px) and (max-width:576px) {
+    .editBtn {
+        font-size: 15px;
+    }
+
+    .addressBtn {
+        font-size: 15px;
+    }
+}
